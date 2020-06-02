@@ -1,0 +1,251 @@
+ID,Name,Age,Nationality,Overall,Club,Value,Position,Crossing,BodyType,Finishing,Dribbling,SprintSpeed,Height,Weight,PreferredFoot,GKDiving
+158023,L. Messi,31,Argentina,94,FC Barcelona,110.5,RF,84,Lean,95,97,86,5'7,159,Left,6
+20801,Cristiano Ronaldo,33,Portugal,94,Juventus,77,ST,84,Normal,94,88,91,6'2,183,Right,7
+190871,Neymar Jr,26,Brazil,92,Paris Saint-Germain,118.5,LW,79,Normal,87,96,90,5'9,150,Right,9
+193080,De Gea,27,Spain,91,Manchester United,72,GK,17,Lean,13,18,58,6'4,168,Right,90
+192985,K. De Bruyne,27,Belgium,91,Manchester City,102,RCM,93,Normal,82,86,76,5'11,154,Right,15
+183277,E. Hazard,27,Belgium,91,Chelsea,93,LF,81,Normal,84,95,88,5'8,163,Right,11
+177003,L. Modrić,32,Croatia,91,Real Madrid,67,RCM,86,Lean,72,90,72,5'8,146,Right,13
+176580,L. Suárez,31,Uruguay,91,FC Barcelona,80,RS,77,Normal,93,87,75,6'0,190,Right,27
+155862,Sergio Ramos,32,Spain,91,Real Madrid,51,RCB,66,Normal,60,63,75,6'0,181,Right,11
+200389,J. Oblak,25,Slovenia,90,Atlético Madrid,68,GK,13,Normal,11,12,60,6'2,192,Right,86
+188545,R. Lewandowski,29,Poland,90,FC Bayern München,77,ST,62,Normal,91,85,78,6'0,176,Right,15
+182521,T. Kroos,28,Germany,90,Real Madrid,76.5,LCM,88,Normal,76,81,62,6'0,168,Right,10
+182493,D. God,32,Uruguay,90,Atlético Madrid,44,CB,55,Lean,42,53,68,6'2,172,Right,6
+168542,David Silva,32,Spain,90,Manchester City,60,LCM,84,Normal,76,89,64,5'8,148,Left,6
+215914,N. Kant,27,France,89,Chelsea,63,LDM,68,Lean,65,79,78,5'6,159,Right,15
+211110,P. Dybala,24,Argentina,89,Juventus,89,LF,82,Normal,84,92,83,5'10,165,Left,5
+202126,H. Kane,24,England,89,Tottenham Hotspur,83.5,ST,75,Normal,94,80,72,6'2,196,Right,8
+194765,A. Griezmann,27,France,89,Atlético Madrid,78,CAM,82,Lean,90,88,85,5'9,161,Left,14
+192448,M. ter Stegen,26,Germany,89,FC Barcelona,58,GK,15,Normal,14,17,50,6'2,187,Right,87
+192119,T. Courtois,26,Belgium,89,Real Madrid,53.5,GK,14,Courtois,14,13,52,6'6,212,Left,85
+189511,Sergio Busquets,29,Spain,89,FC Barcelona,51.5,CDM,62,Lean,67,80,52,6'2,168,Right,5
+179813,E. Cavani,31,Uruguay,89,Paris Saint-Germain,60,LS,70,Lean,89,80,76,6'1,170,Right,12
+167495,M. Neuer,32,Germany,89,FC Bayern München,38,GK,15,Normal,13,30,60,6'4,203,Right,90
+153079,S. Agüero,30,Argentina,89,Manchester City,64.5,ST,70,Stocky,93,89,80,5'8,154,Right,13
+138956,G. Chiellini,33,Italy,89,Juventus,27,LCB,58,Normal,33,58,75,6'2,187,Left,3
+231747,K. Mbapp,19,France,88,Paris Saint-Germain,81,RM,77,Lean,88,90,96,5'10,161,Right,13
+209331,M. Salah,26,Egypt,88,Liverpool,69.5,RM,78,Normal,90,89,91,5'9,157,Left,14
+200145,Casemiro,26,Brazil,88,Real Madrid,59.5,CDM,52,Normal,59,69,65,6'1,185,Right,13
+198710,J. Rodríguez,26,Colombia,88,FC Bayern München,69.5,LAM,90,Normal,83,85,67,5'11,172,Left,15
+198219,L. Insigne,27,Italy,88,Napoli,62,LW,86,Normal,77,90,86,5'4,130,Right,8
+197781,Isco,26,Spain,88,Real Madrid,73.5,LW,75,Normal,79,94,69,5'9,174,Right,10
+190460,C. Eriksen,26,Denmark,88,Tottenham Hotspur,73.5,CAM,88,Lean,80,84,73,5'11,168,Right,9
+189242,Coutinho,26,Brazil,88,FC Barcelona,69.5,LW,79,Normal,79,91,75,5'8,150,Right,12
+188567,P. Aubameyang,29,Gabon,88,Arsenal,59,LM,77,Lean,88,79,95,6'2,176,Right,6
+178603,M. Hummels,29,Germany,88,FC Bayern München,46,LCB,64,Normal,55,68,64,6'3,203,Right,15
+176676,Marcelo,30,Brazil,88,Real Madrid,43,LB,90,Normal,70,90,82,5'9,176,Left,12
+173731,G. Bale,28,Wales,88,Real Madrid,60,ST,87,Lean,86,87,95,6'1,181,Left,15
+167948,H. Lloris,31,France,88,Tottenham Hotspur,36,GK,13,Lean,10,10,62,6'2,181,Left,88
+167664,G. Higuaín,30,Argentina,88,Milan,57,LS,68,Normal,92,84,73,6'1,196,Right,5
+164240,Thiago Silva,33,Brazil,88,Paris Saint-Germain,24,RCB,60,Normal,38,62,72,6'0,181,Right,9
+162835,S. Handanovič,33,Slovenia,88,Inter,30,GK,12,Normal,10,12,55,6'4,203,Right,87
+1179,G. Buffon,40,Italy,88,Paris Saint-Germain,4,GK,13,Normal,15,26,43,6'4,203,Right,88
+205600,S. Umtiti,24,France,87,FC Barcelona,57,CB,69,Normal,51,69,73,6'0,165,Left,15
+201399,M. Icardi,25,Argentina,87,Inter,64.5,ST,46,Normal,91,77,78,5'11,165,Right,13
+201024,K. Koulibaly,27,Senegal,87,Napoli,51,LCB,30,Normal,19,66,75,6'2,196,Right,7
+195864,P. Pogba,25,France,87,Manchester United,64,RDM,80,Normal,73,87,79,6'4,185,Right,5
+193041,K. Navas,31,Costa Rica,87,Real Madrid,30.5,GK,11,Normal,15,16,53,6'1,176,Right,90
+192505,R. Lukaku,25,Belgium,87,Manchester United,62.5,ST,78,Stocky,87,80,90,6'3,207,Left,8
+192387,C. Immobile,28,Italy,87,Lazio,52,ST,55,Normal,90,83,85,6'1,187,Right,6
+189332,Jordi Alba,29,Spain,87,FC Barcelona,38,LB,87,Normal,73,80,93,5'7,150,Left,13
+175943,D. Mertens,31,Belgium,87,Napoli,45,RF,77,Normal,86,91,85,5'7,134,Right,7
+172871,J. Vertonghen,31,Belgium,87,Tottenham Hotspur,34,LCB,68,Normal,56,71,65,6'2,190,Left,6
+171877,M. Ham,30,Slovakia,87,Napoli,46.5,LCM,78,Normal,79,86,68,6'0,174,Right,8
+168651,I. Rakitić,30,Croatia,87,FC Barcelona,46.5,RCM,84,Normal,83,84,59,6'0,172,Right,14
+152729,Piqué,31,Spain,87,FC Barcelona,34,RCB,57,Normal,64,59,60,6'4,187,Right,10
+222492,L. Sané,22,Germany,86,Manchester City,61,LW,83,Lean,81,88,96,6'0,165,Left,8
+218667,Bernardo Silva,23,Portugal,86,Manchester City,59.5,RW,85,Lean,75,92,74,5'8,141,Left,9
+210257,Ederson,24,Brazil,86,Manchester City,41.5,GK,20,Normal,14,23,63,6'2,190,Left,85
+208722,S. Man,26,Senegal,86,Liverpool,52,LM,73,Lean,84,87,93,5'9,152,Right,10
+203376,V. van Dijk,26,Netherlands,86,Liverpool,44.5,LCB,53,Normal,52,70,77,6'4,203,Right,13
+202652,R. Sterling,23,England,86,Manchester City,56.5,RW,77,Lean,77,88,92,5'7,152,Right,15
+201942,Roberto Firmino,26,Brazil,86,Liverpool,53,CAM,72,Lean,87,87,77,5'11,168,Right,8
+201535,R. Varane,25,France,86,Real Madrid,50,RCB,36,Lean,40,57,85,6'3,179,Right,11
+199556,M. Verratti,25,Italy,86,Paris Saint-Germain,55,LCM,72,Normal,60,90,62,5'5,132,Right,12
+191043,Alex Sandro,27,Brazil,86,Juventus,36.5,LB,84,Normal,55,80,86,5'11,176,Left,7
+190483,Douglas Costa,27,Brazil,86,Juventus,46.5,LM,84,Normal,67,92,93,5'8,154,Left,13
+189596,T. Müller,28,Germany,86,FC Bayern München,45,CAM,79,Lean,87,75,75,6'1,165,Right,6
+189509,Thiago,27,Spain,86,FC Bayern München,45.5,CM,72,Normal,69,90,69,5'9,154,Right,6
+188350,M. Reus,29,Germany,86,Borussia Dortmund,43.5,LM,79,Lean,87,87,85,5'11,157,Right,12
+184432,Azpilicueta,28,Spain,86,Chelsea,35,RB,81,Normal,46,69,76,5'10,168,Right,13
+184344,L. Bonucci,31,Italy,86,Juventus,30,RCB,44,Lean,48,69,65,6'3,187,Right,2
+184087,T. Alderweireld,29,Belgium,86,Tottenham Hotspur,39,RCB,64,Normal,45,62,66,6'1,179,Right,16
+180206,M. Pjanić,28,Bosnia Herzegovina,86,Juventus,44,CDM,80,Normal,60,86,66,5'10,159,Right,7
+177509,M. Benatia,31,Morocco,86,Juventus,30,CB,45,Normal,47,64,75,6'2,207,Right,7
+176635,M. Özil,29,Germany,86,Arsenal,43.5,CAM,83,Lean,73,84,69,5'11,168,Left,6
+135507,Fernandinho,33,Brazil,86,Manchester City,18,CDM,68,Lean,69,77,67,5'10,148,Right,12
+41,Iniesta,34,Spain,86,Vissel Kobe,21.5,LF,77,Normal,70,90,67,5'7,150,Right,6
+232363,M. Škriniar,23,Slovakia,85,Inter,46.5,LCB,40,Normal,42,59,73,6'2,176,Right,10
+223848,S. Milinković-Savić,23,Serbia,85,Lazio,50.5,CM,64,Normal,80,86,70,6'3,168,Right,7
+220834,Marco Asensio,22,Spain,85,Real Madrid,54,RW,82,Normal,82,86,82,6'0,168,Left,13
+216594,N. Fekir,24,France,85,Olympique Lyonnais,50,CAM,83,Stocky,82,90,79,5'8,165,Left,15
+212831,Alisson,25,Brazil,85,Liverpool,36.5,GK,17,Normal,13,27,45,6'3,201,Right,83
+212622,J. Kimmich,23,Germany,85,FC Bayern München,40.5,RCM,90,Lean,66,80,68,5'9,154,Right,8
+208421,Saúl,23,Spain,85,Atlético Madrid,50.5,RCM,69,Lean,78,83,73,6'0,170,Left,7
+204485,R. Mahrez,27,Algeria,85,Manchester City,40.5,RW,81,Lean,80,91,83,5'10,148,Left,15
+197445,D. Alaba,26,Austria,85,FC Bayern München,38,LB,81,Lean,63,79,86,5'11,168,Left,5
+193747,Koke,26,Spain,85,Atlético Madrid,45,LM,86,Normal,72,82,68,5'9,163,Right,14
+193301,A. Lacazette,27,France,85,Arsenal,45,ST,64,Normal,88,85,84,5'9,161,Right,11
+192774,K. Manolas,27,Greece,85,Roma,37.5,LCB,27,Normal,10,54,85,6'2,183,Right,8
+192366,N. Otamendi,30,Argentina,85,Manchester City,28.5,CB,52,Normal,54,51,61,6'0,179,Right,12
+189513,Parejo,29,Spain,85,Valencia CF,37,RCM,84,Lean,79,78,43,6'0,163,Right,5
+187961,Paulinho,29,Brazil,85,Guangzhou Evergrande Taobao FC,37,LDM,64,Lean,81,82,73,6'0,157,Right,16
+186153,W. Szczęsny,28,Poland,85,Juventus,32,GK,12,Lean,12,11,47,6'5,198,Right,85
+184941,A. Sánchez,29,Chile,85,Manchester United,37.5,RW,77,Normal,80,87,79,5'7,163,Right,10
+184267,Y. Brahimi,28,Algeria,85,FC Porto,39,LM,79,Normal,76,93,75,5'9,146,Right,13
+183907,J. Boateng,29,Germany,85,FC Bayern München,30,RCB,69,Stocky,34,64,72,6'4,198,Right,7
+181872,A. Vidal,31,Chile,85,FC Barcelona,26,CAM,76,Normal,75,76,55,5'11,165,Right,4
+181458,I. Perišić,29,Croatia,85,Inter,37.5,LM,83,Lean,79,84,88,6'1,176,Right,6
+180930,E. Džeko,32,Bosnia Herzegovina,85,Roma,30.5,ST,63,Lean,89,76,66,6'4,185,Right,9
+179846,S. Khedira,31,Germany,85,Juventus,33,RCM,72,Normal,72,81,60,6'2,198,Right,11
+179844,Diego Costa,29,Spain,85,Atlético Madrid,38.5,LS,65,Normal,87,77,76,6'2,190,Right,11
+178518,R. Nainggolan,30,Belgium,85,Inter,35.5,CAM,73,Stocky,75,80,73,5'9,170,Right,11
+171919,Naldo,35,Brazil,85,FC Schalke 04,9,CB,45,Lean,57,60,65,6'6,201,Right,14
+170890,B. Matuidi,31,France,85,Juventus,26,LM,75,Lean,64,78,77,5'11,165,Left,8
+168609,Miranda,33,Brazil,85,Inter,15.5,CB,48,Lean,43,67,69,6'1,172,Right,12
+165153,K. Benzema,30,France,85,Real Madrid,37,ST,75,Normal,81,83,76,6'1,179,Right,13
+164169,Filipe Luís,32,Brazil,85,Atlético Madrid,21.5,LB,86,Lean,59,77,75,6'0,163,Left,11
+139720,V. Kompany,32,Belgium,85,Manchester City,22,CB,61,Normal,45,63,59,6'3,187,Right,10
+120533,Pepe,35,Portugal,85,Beşiktaş JK,9,RCB,46,Lean,46,58,70,6'2,179,Right,8
+41236,Z. Ibrahimović,36,Sweden,85,LA Galaxy,14,RS,73,Normal,86,79,59,6'5,209,Right,13
+220793,D. Sánchez,22,Colombia,84,Tottenham Hotspur,34,RCB,36,Normal,40,63,79,6'2,174,Right,9
+216460,J. Giménez,23,Uruguay,84,Atlético Madrid,34,RCB,47,Normal,37,47,70,6'1,176,Right,9
+212462,Alex Telles,25,Brazil,84,FC Porto,32,LB,89,Lean,65,82,85,5'11,157,Left,13
+212218,A. Laporte,24,France,84,Manchester City,34,LCB,58,Normal,45,59,66,6'2,187,Left,10
+212198,Bruno Fernandes,23,Portugal,84,Sporting CP,40.5,LCM,84,Lean,73,83,76,5'10,152,Right,12
+212190,N. Süle,22,Germany,84,FC Bayern München,36.5,CB,30,Stocky,20,42,84,6'5,214,Right,15
+211300,A. Martial,22,France,84,Manchester United,42.5,LW,76,Normal,84,87,89,6'0,168,Right,9
+211117,D. Alli,22,England,84,Tottenham Hotspur,42.5,LCM,69,Lean,83,83,76,6'2,176,Right,7
+209499,Fabinho,24,Brazil,84,Liverpool,34,CDM,79,Lean,66,76,72,6'2,172,Right,13
+207865,Marquinhos,24,Brazil,84,Paris Saint-Germain,35.5,LDM,72,Lean,33,59,76,6'0,165,Right,6
+207566,William Carvalho,26,Portugal,84,Real Betis,31.5,CDM,68,Normal,52,80,53,6'2,183,Right,6
+205498,Jorginho,26,Italy,84,Chelsea,38,CM,75,Lean,57,82,69,5'11,148,Right,14
+204970,F. Thauvin,25,France,84,Olympique de Marseille,39,RM,83,Normal,81,85,80,5'10,154,Left,8
+204963,Carvajal,26,Spain,84,Real Madrid,31.5,RB,83,Stocky,41,76,84,5'8,161,Right,13
+202556,M. Depay,24,Netherlands,84,Olympique Lyonnais,42,ST,79,Stocky,79,85,87,5'9,172,Right,8
+200104,H. Son,25,Korea Republic,84,Tottenham Hotspur,37,LM,78,Lean,85,88,87,6'0,143,Right,11
+199482,A. Lopes,27,Portugal,84,Olympique Lyonnais,25,GK,19,Normal,18,15,64,6'0,179,Left,86
+198176,S. de Vrij,26,Netherlands,84,Inter,31.5,CB,49,Normal,25,63,69,6'2,172,Right,8
+198009,M. Perin,25,Italy,84,Juventus,29.5,GK,11,Lean,11,19,56,6'2,170,Right,81
+193082,J. Cuadrado,30,Colombia,84,Juventus,29.5,RAM,80,Lean,67,90,93,5'10,159,Right,5
+192629,Iago Aspas,30,Spain,84,RC Celta,30,ST,80,Lean,88,86,78,5'9,148,Left,12
+192563,B. Leno,26,Germany,84,Arsenal,27,GK,9,Normal,9,16,52,6'3,183,Right,84
+191202,N. Matić,29,Serbia,84,Manchester United,24,CDM,71,Lean,64,80,59,6'4,187,Left,7
+190941,L. Hrádecký,28,Finland,84,Bayer 04 Leverkusen,22,GK,11,Lean,11,10,44,6'4,187,Right,85
+190584,Illarramendi,28,Spain,84,Real Sociedad,31,RDM,68,Normal,72,78,57,5'10,165,Right,15
+188377,K. Walker,28,England,84,Manchester City,24.5,RB,81,Normal,51,79,93,6'0,154,Right,12
+186942,I. Gündoğan,27,Germany,84,Manchester City,32,CM,74,Normal,73,85,68,5'11,176,Right,11
+185020,José Callejón,31,Spain,84,Napoli,27.5,RM,82,Lean,78,82,89,5'10,161,Right,8
+183898,A. Di María,30,Argentina,84,Paris Saint-Germain,29.5,RM,83,Lean,72,86,84,5'11,152,Left,10
+181783,M. Mandžukić,32,Croatia,84,Juventus,25,ST,72,Lean,84,76,73,6'3,187,Right,10
+180403,Willian,29,Brazil,84,Chelsea,30.5,RW,76,Lean,77,88,86,5'9,172,Right,14
+178750,Sergio Asenjo,29,Spain,84,Villarreal CF,24,GK,24,Stocky,14,15,54,6'2,192,Right,85
+178562,E. Banega,30,Argentina,84,Sevilla FC,29,CDM,80,Normal,66,84,64,5'9,157,Right,13
+177413,A. Witsel,29,Belgium,84,Borussia Dortmund,24,LCM,69,Lean,71,78,74,6'2,179,Right,5
+177388,D. Payet,31,France,84,Olympique de Marseille,27.5,CAM,87,Normal,78,86,72,5'9,170,Right,11
+176769,Jonas,34,Brazil,84,SL Benfica,16.5,ST,70,Lean,88,84,64,5'11,163,Right,12
+172879,Sokratis,30,Greece,84,Arsenal,23,RCB,47,Normal,44,58,73,6'1,187,Right,6
+167628,S. Ruffier,31,France,84,AS Saint-Étienne,19,GK,11,Stocky,11,12,50,6'2,205,Right,82
+167397,Falcao,32,Colombia,84,AS Monaco,25,RS,55,Normal,86,75,66,5'10,159,Right,10
+163587,K. Schmeichel,31,Denmark,84,Leicester City,19,GK,18,Stocky,12,12,60,6'2,196,Right,82
+157481,Raúl Albiol,32,Spain,84,Napoli,18,RCB,38,Lean,27,59,53,6'3,181,Right,8
+143076,A. Gómez,30,Argentina,84,Atalanta,30,LS,82,Normal,76,89,86,5'5,150,Right,8
+137186,A. Barzagli,37,Italy,84,Juventus,4.2,CB,40,Normal,21,64,77,6'2,192,Right,4
+20775,Quaresma,34,Portugal,84,Beşiktaş JK,15.5,RM,92,Normal,67,89,82,5'9,148,Right,12
+9014,A. Robben,34,Netherlands,84,FC Bayern München,15.5,RM,80,Normal,85,89,76,5'11,176,Left,10
+231443,O. Dembélé,21,France,83,FC Barcelona,40,RW,78,Lean,78,90,92,5'10,148,Left,6
+230666,Gabriel Jesus,21,Brazil,83,Manchester City,41,ST,66,Normal,84,86,85,5'9,161,Right,13
+230481,Ronaldo Cabrais,26,Brazil,83,Grêmio,28,RW,83,Normal,74,85,87,5'10,165,Right,12
+230375,Josué Chiamulera,26,Brazil,83,Grêmio,22.5,LCB,40,Normal,38,56,78,6'1,176,Right,16
+230294,Louri Beretta,26,Brazil,83,Atlético Mineiro,28.5,ST,56,Normal,85,75,83,6'2,183,Right,8
+225850,P. Kimpembe,22,France,83,Paris Saint-Germain,30.5,LCB,62,Normal,31,58,78,6'2,176,Left,7
+220971,N. Keïta,23,Guinea,83,Liverpool,34,CM,62,Lean,74,88,60,5'8,141,Right,7
+219683,C. Tolisso,23,France,83,FC Bayern München,34,CM,67,Normal,75,77,66,5'11,179,Right,7
+213565,T. Lemar,22,France,83,Atlético Madrid,35.5,LM,83,Lean,75,85,84,5'7,137,Left,11
+213345,K. Coman,22,France,83,FC Bayern München,34,LM,81,Lean,76,88,93,5'10,157,Right,5
+213331,J. Tah,22,Germany,83,Bayer 04 Leverkusen,29.5,CB,35,Stocky,20,55,77,6'5,214,Right,11
+212523,Anderson Talisca,24,Brazil,83,Guangzhou Evergrande Taobao FC,36.5,CAM,78,Normal,80,82,76,6'3,176,Left,13
+212188,T. Werner,22,Germany,83,RB Leipzig,34.5,RW,69,Normal,87,83,93,5'11,165,Right,9
+210008,A. Rabiot,23,France,83,Paris Saint-Germain,33,CM,70,Lean,69,79,74,6'4,176,Left,9
+209658,L. Goretzka,23,Germany,83,FC Bayern München,34,CM,75,Lean,72,81,79,6'2,174,Right,13
+208808,Q. Promes,26,Netherlands,83,Sevilla FC,30.5,RM,79,Lean,86,84,91,5'9,159,Right,10
+208670,H. Ziyech,25,Morocco,83,Ajax,32.5,RAM,84,Lean,68,83,74,5'11,143,Left,11
+208618,Lucas Vázquez,27,Spain,83,Real Madrid,27,RW,86,Normal,73,82,79,5'8,154,Right,9
+208418,Y. Carrasco,24,Belgium,83,Dalian YiFang FC,33,LM,78,Lean,79,88,87,5'11,161,Right,9
+208093,Gerard Moreno,26,Spain,83,Villarreal CF,32,LS,61,Lean,83,78,80,5'11,170,Left,15
+207863,Felipe,29,Brazil,83,FC Porto,20,RCB,45,Normal,39,57,67,6'3,190,Right,9
+207410,M. Kovačić,24,Croatia,83,Chelsea,35,LCM,73,Normal,62,88,74,5'9,172,Right,9
+206585,Kepa,23,Spain,83,Chelsea,28.5,GK,25,Lean,11,10,33,6'1,187,Right,84
+206545,Manu Trigueros,26,Spain,83,Villarreal CF,30,RCM,72,Lean,71,80,65,5'10,165,Right,9
+206113,S. Gnabry,22,Germany,83,FC Bayern München,34.5,ST,74,Normal,81,87,90,5'9,165,Right,14
+204935,J. Pickford,24,England,83,Everton,25,GK,17,Normal,19,14,44,6'1,170,Left,83
+204639,S. Savić,27,Montenegro,83,Atlético Madrid,26,CB,35,Lean,34,47,61,6'2,174,Right,14
+203574,J. Stones,24,England,83,Manchester City,28.5,RCB,62,Lean,29,69,71,6'2,154,Right,7
+202651,Suso,24,Spain,83,Milan,33,RW,84,Lean,70,88,77,5'9,154,Left,15
+202166,J. Draxler,24,Germany,83,Paris Saint-Germain,32.5,CM,83,Lean,78,88,77,6'2,170,Right,11
+201995,Felipe Anderson,25,Brazil,83,West Ham United,31.5,LM,79,Normal,71,90,89,5'9,154,Right,12
+200949,Lucas Moura,25,Brazil,83,Tottenham Hotspur,31,RM,75,Normal,78,88,90,5'9,154,Right,9
+200888,Danilo Pereira,26,Portugal,83,FC Porto,27,CDM,50,Normal,61,76,68,6'2,183,Right,9
+200724,Nacho Fernández,28,Spain,83,Real Madrid,24.5,CB,70,Normal,32,55,79,5'11,168,Right,12
+200316,T. Horn,25,Germany,83,1. FC Köln,24,GK,19,Normal,13,20,51,6'4,198,Left,83
+199914,Allan,27,Brazil,83,Napoli,26.5,RCM,70,Normal,72,82,74,5'9,163,Right,13
+199845,F. Acerbi,30,Italy,83,Lazio,19,CB,25,Normal,37,65,55,6'4,194,Left,11
+199564,Sergi Roberto,26,Spain,83,FC Barcelona,26.5,RB,85,Normal,63,78,79,5'10,150,Right,14
+198329,Rodrigo,27,Spain,83,Valencia CF,30.5,ST,72,Lean,78,82,91,6'0,170,Left,7
+197965,Pizzi,28,Portugal,83,SL Benfica,25.5,LCM,79,Lean,76,80,73,5'10,159,Right,15
+195365,K. Kampl,27,Slovenia,83,RB Leipzig,26.5,LCM,72,Lean,63,86,71,5'10,148,Right,13
+194404,Neto,28,Brazil,83,Valencia CF,21,GK,11,Lean,15,19,49,6'3,185,Right,85
+193698,O. Baumann,28,Germany,83,TSG 1899 Hoffenheim,21,GK,14,Normal,11,19,51,6'2,181,Right,82
+193474,I. Gueye,28,Senegal,83,Everton,21,RDM,60,Lean,50,75,72,5'9,146,Right,8
+192883,H. Mkhitaryan,29,Armenia,83,Arsenal,25.5,RM,77,Normal,74,84,78,5'10,165,Right,5
+192638,Marcos Alonso,27,Spain,83,Chelsea,24,LB,85,Lean,68,79,76,6'2,192,Left,9
+192593,D. Subašić,33,Croatia,83,AS Monaco,13,GK,11,Normal,10,11,54,6'3,185,Right,82
+190547,K. Glik,30,Poland,83,AS Monaco,19,RCB,29,Normal,27,51,52,6'3,176,Right,10
+189712,K. Strootman,28,Netherlands,83,Olympique de Marseille,21,CDM,74,Normal,68,75,66,6'1,176,Left,7
+189068,B. Dost,29,Netherlands,83,Sporting CP,26,ST,38,Lean,87,68,54,6'5,196,Right,6
+188152,Oscar,26,Brazil,83,Shanghai SIPG FC,30.5,LCM,74,Lean,76,78,72,5'10,146,Right,12
+186627,M. Balotelli,27,Italy,83,OGC Nice,27.5,LS,68,Normal,85,81,82,6'2,194,Right,2
+185221,Luiz Gustavo,30,Brazil,83,Olympique de Marseille,19,LCB,63,Lean,48,68,64,6'2,172,Left,10
+184942,Giuliano,28,Brazil,83,Al Nassr,26,CAM,77,Stocky,79,84,79,5'8,150,Right,16
+179944,David Luiz,31,Brazil,83,Chelsea,17.5,LCB,68,Normal,55,66,62,6'2,190,Right,11
+179783,R. Fährmann,29,Germany,83,FC Schalke 04,20,GK,14,Normal,11,15,47,6'6,216,Right,83
+178088,Juan Mata,30,Spain,83,Manchester United,24.5,RM,83,Lean,78,82,62,5'7,139,Left,9
+178086,Adán,31,Spain,83,Atlético Madrid,15.5,GK,12,Normal,11,12,54,6'3,203,Left,81
+178005,Rui Patrício,30,Portugal,83,Wolverhampton Wanderers,16.5,GK,12,Normal,12,20,57,6'3,185,Left,85
+177683,Y. Sommer,29,Switzerland,83,Borussia Mönchengladbach,20,GK,13,Normal,13,15,54,6'0,174,Right,78
+177610,Javi Martínez,29,Spain,83,FC Bayern München,20,CDM,60,Normal,43,60,53,6'4,190,Right,5
+177457,L. Bender,29,Germany,83,Bayer 04 Leverkusen,20,RB,69,Lean,59,72,67,6'1,179,Right,12
+176266,Lucas Leiva,31,Brazil,83,Lazio,17.5,LDM,63,Normal,62,77,67,5'10,172,Right,10
+163705,S. Mandanda,33,France,83,Olympique de Marseille,13,GK,14,Normal,13,15,43,6'1,181,Right,86
+162895,Cesc Fàbregas,31,Spain,83,Chelsea,22,CM,85,Normal,72,79,54,5'10,170,Right,6
+162240,M. Dembélé,30,Belgium,83,Tottenham Hotspur,24,CM,65,Normal,66,89,72,6'1,181,Left,16
+156616,F. Ribéry,35,France,83,FC Bayern München,11.5,LM,80,Normal,74,84,78,5'7,159,Right,15
+104389,R. Jarstein,33,Norway,83,Hertha BSC,13,GK,18,Normal,13,11,46,6'3,181,Right,79
+53302,D. De Rossi,34,Italy,83,Roma,8,RDM,57,Normal,50,64,67,6'0,183,Right,10
+24630,Pepe Reina,35,Spain,83,Milan,6,GK,11,Normal,14,10,63,6'2,203,Right,80
+236583,J. Pavlenka,26,Czech Republic,82,SV Werder Bremen,19.5,GK,11,Lean,16,12,37,6'5,179,Right,85
+235243,M. de Ligt,18,Netherlands,82,Ajax,27,RCB,57,Normal,53,65,72,6'2,196,Right,12
+231866,Rodri,22,Spain,82,Atlético Madrid,29,CM,63,Lean,64,77,66,6'3,181,Right,10
+230658,Arthur,21,Brazil,82,FC Barcelona,32.5,LCM,70,Normal,72,82,70,5'7,161,Right,6
+230621,G. Donnarumma,19,Italy,82,Milan,29,GK,12,Normal,12,28,54,6'5,198,Right,88
+230258,Rosberto Dourado,30,Brazil,82,Atlético Mineiro,16.5,RCM,61,Lean,53,77,81,5'9,154,Right,15
+230225,Juiano Mestres,34,Brazil,82,Cruzeiro,6.5,RCB,40,Normal,56,60,74,5'11,181,Right,18
+230168,Raphaelito Anjos,30,Brazil,82,Grêmio,14,GK,10,Normal,8,9,42,6'3,187,Right,79
+227055,Gelson Martins,23,Portugal,82,Atlético Madrid,29.5,RM,81,Lean,66,85,94,5'8,159,Right,12
+224411,Gonçalo Guedes,21,Portugal,82,Valencia CF,29,LM,76,Normal,75,86,90,5'10,150,Right,9
+223959,L. Torreira,22,Uruguay,82,Arsenal,25,LCM,74,Normal,50,78,74,5'6,141,Right,5
+222737,Malcom,21,Brazil,82,FC Barcelona,31.5,RW,79,Normal,75,85,82,5'8,163,Left,8
+221087,Pau López,23,Spain,82,Real Betis,21.5,GK,24,Lean,19,18,52,6'2,170,Left,81
+220814,L. Hernández,22,France,82,Atlético Madrid,25.5,LB,78,Normal,42,65,84,6'0,168,Left,10
+220440,C. Lenglet,23,France,82,FC Barcelona,26,LCB,36,Lean,23,60,73,6'1,179,Left,10
+216354,A. Kramarić,27,Croatia,82,TSG 1899 Hoffenheim,26,LCM,75,Normal,86,87,72,5'10,161,Right,8
+216267,A. Robertson,24,Scotland,82,Liverpool,24.5,LB,86,Lean,57,76,86,5'10,141,Left,11
+216194,Dani García,28,Spain,82,Athletic Club de Bilbao,20,RCM,55,Stocky,51,66,35,5'11,176,Right,6
+212404,F. Bernardeschi,24,Italy,82,Juventus,29.5,RM,82,Lean,70,86,83,6'1,170,Left,14
+212194,J. Brandt,22,Germany,82,Bayer 04 Leverkusen,30.5,LM,77,Lean,78,87,84,6'1,185,Right,11
+211320,D. Rugani,23,Italy,82,Juventus,24.5,CB,40,Lean,33,64,67,6'3,185,Right,5
+210617,Samu Castillejo,23,Spain,82,Milan,29,RM,81,Lean,77,85,86,6'0,148,Left,13
+210514,João Cancelo,24,Portugal,82,Juventus,25.5,RB,85,Lean,58,84,91,6'0,163,Right,6
+210413,A. Romagnoli,23,Italy,82,Milan,26.5,LCB,36,Normal,30,65,69,6'2,172,Left,9
+209989,T. Partey,25,Ghana,82,Atlético Madrid,25.5,CDM,58,Lean,63,78,76,6'1,170,Right,11
