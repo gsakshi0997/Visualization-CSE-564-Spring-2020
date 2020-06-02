@@ -1,0 +1,645 @@
+Name,Age,Nationality,Club,Value,International Reputation,Jersey Number,Position,Preferred Foot,Body Type,Joined,Height,Weight,Crossing,Acceleration,SprintSpeed,Agility,Balance,ShotPower,Jumping,Stamina,Strength,Penalties,Overall
+L. Messi,31,Argentina,FC Barcelona,11050000,5,10,21,0,0,2005,5'7,159lbs,84,91,86,91,95,85,68,72,59,75,94
+Cristiano Ronaldo,33,Portugal,Juventus,15500000,5,7,26,1,2,2018,6'2,183lbs,84,89,91,87,70,95,95,88,79,85,94
+Neymar Jr,26,Brazil,Paris Saint-Germain,11850000,5,10,14,1,1,2017,5'9,150lbs,79,94,90,96,84,80,61,81,49,81,92
+De Gea,27,Spain,Manchester United,7200000,4,1,5,1,0,2011,6'4,168lbs,17,57,58,60,43,31,67,43,64,40,91
+K. De Bruyne,27,Belgium,Manchester City,10200000,4,7,19,1,2,2015,5'11,154lbs,93,78,76,79,77,91,63,90,75,79,91
+E. Hazard,27,Belgium,Chelsea,9300000,4,10,11,1,2,2012,5'8,163lbs,81,94,88,95,94,82,56,83,66,86,91
+L. Modriƒá,32,Croatia,Real Madrid,6700000,4,10,19,1,0,2012,5'8,146lbs,86,80,72,93,94,79,68,89,58,82,91
+L. Suarez,31,Uruguay,FC Barcelona,8000000,5,9,23,1,2,2014,6'0,190lbs,77,86,75,82,83,86,69,90,83,85,91
+Sergio Ramos,32,Spain,Real Madrid,5100000,4,15,18,1,2,2005,6'0,181lbs,66,76,75,78,66,79,93,84,83,75,91
+J. Oblak,25,Slovenia,Atletico Madrid,6800000,3,1,5,1,2,2014,6'2,192lbs,13,43,60,67,49,22,76,41,78,11,90
+R. Lewandowski,29,Poland,FC Bayern Munchen,7700000,4,9,26,1,2,2014,6'0,176lbs,62,77,78,78,78,88,84,78,84,88,90
+T. Kroos,28,Germany,Real Madrid,7650000,4,8,9,1,2,2014,6'0,168lbs,88,64,62,70,71,87,30,75,73,73,90
+D. Godven,32,Uruguay,Atletico Madrid,4400000,3,10,1,1,0,2010,6'2,172lbs,55,68,68,58,54,67,91,66,88,50,90
+David Silva,32,Spain,Manchester City,6000000,4,21,9,0,2,2010,5'8,148lbs,84,70,64,92,90,72,64,78,52,75,90
+N. Kant,27,France,Chelsea,6300000,3,13,10,1,0,2016,5'6,159lbs,68,82,78,82,92,71,77,96,76,54,89
+P. Dybala,24,Argentina,Juventus,8900000,3,21,11,0,2,2015,5'10,165lbs,82,87,83,91,85,82,75,80,65,86,89
+H. Kane,24,England,Tottenham Hotspur,8350000,3,9,26,1,2,2010,6'2,196lbs,75,68,72,71,71,88,78,89,84,90,89
+A. Griezmann,27,France,Atletico Madrid,7800000,4,7,0,0,0,2014,5'9,161lbs,82,88,85,90,80,80,90,83,62,79,89
+M. ter Stegen,26,Germany,FC Barcelona,5800000,3,22,5,1,2,2014,6'2,187lbs,15,38,50,37,43,22,79,35,79,25,89
+T. Courtois,26,Belgium,Real Madrid,5350000,4,1,5,0,4,2018,6'6,212lbs,14,46,52,61,45,36,68,38,70,27,89
+Sergio Busquets,29,Spain,FC Barcelona,5150000,4,5,2,1,0,2008,6'2,168lbs,62,50,52,66,52,61,66,86,77,60,89
+E. Cavani,31,Uruguay,Paris Saint-Germain,6000000,4,21,13,1,0,2013,6'1,170lbs,70,75,76,77,59,87,88,92,78,85,89
+M. Neuer,32,Germany,FC Bayern Munchen,3800000,5,1,5,1,2,2011,6'4,203lbs,15,54,60,51,35,25,77,43,80,47,89
+S. Agluero,30,Argentina,Manchester City,6450000,4,10,26,1,4,2011,5'8,154lbs,70,88,80,86,91,88,81,76,73,83,89
+G. Chiellini,33,Italy,Juventus,2700000,4,3,8,0,2,2005,6'2,187lbs,58,63,75,54,55,78,89,65,89,50,89
+K. Mbapp,19,France,Paris Saint-Germain,8100000,3,10,22,1,0,2018,5'10,161lbs,77,96,96,92,83,79,75,83,71,70,88
+M. Salah,26,Egypt,Liverpool,6950000,3,10,22,0,0,2017,5'9,157lbs,78,94,91,91,88,77,68,84,70,61,88
+Casemiro,26,Brazil,Real Madrid,5950000,3,14,2,1,2,2013,6'1,185lbs,52,59,65,62,66,86,88,87,89,66,88
+J. Rodriguez,26,Colombia,FC Bayern Munchen,6950000,4,10,6,0,2,2014,5'11,172lbs,90,73,67,83,76,86,54,70,68,81,88
+Isco,26,Spain,Real Madrid,7350000,3,22,14,1,2,2013,5'9,174lbs,75,75,69,87,90,69,64,70,59,76,88
+C. Eriksen,26,Denmark,Tottenham Hotspur,7350000,3,10,0,1,0,2013,5'11,168lbs,88,75,73,79,81,84,50,92,58,67,88
+Coutinho,26,Brazil,FC Barcelona,6950000,3,7,14,1,2,2018,5'8,150lbs,79,89,75,92,93,83,59,79,61,70,88
+P. Aubameyang,29,Gabon,Arsenal,5900000,3,14,12,1,0,2018,6'2,176lbs,77,93,95,76,70,82,79,76,76,76,88
+M. Hummels,29,Germany,FC Bayern Munchen,4600000,4,5,8,1,2,2016,6'3,203lbs,64,53,64,63,60,71,68,66,84,68,88
+Marcelo,30,Brazil,Real Madrid,4300000,4,12,7,0,2,2007,5'9,176lbs,90,83,82,86,86,83,76,91,78,59,88
+G. Bale,28,Wales,Real Madrid,6000000,4,11,26,0,0,2013,6'1,181lbs,87,94,95,82,65,92,87,75,80,76,88
+H. Lloris,31,France,Tottenham Hotspur,3600000,4,1,5,0,0,2012,6'2,181lbs,13,65,62,55,54,23,74,41,43,40,88
+Thiago Silva,33,Brazil,Paris Saint-Germain,2400000,4,2,18,1,2,2012,6'0,181lbs,60,70,72,68,68,71,90,74,82,60,88
+G. Buffon,40,Italy,Paris Saint-Germain,400000,4,1,5,1,2,2018,6'4,203lbs,13,49,43,55,49,39,75,39,69,22,88
+S. Umtiti,24,France,FC Barcelona,5700000,3,23,1,0,2,2016,6'0,165lbs,69,71,73,68,66,83,89,78,84,61,87
+P. Pogba,25,France,Manchester United,6400000,4,6,20,1,2,2016,6'4,185lbs,80,71,79,74,64,90,83,88,89,81,87
+K. Navas,31,Costa Rica,Real Madrid,3050000,3,1,5,1,2,2014,6'1,176lbs,11,54,53,60,61,21,74,39,75,25,87
+R. Lukaku,25,Belgium,Manchester United,6250000,3,9,26,0,4,2017,6'3,207lbs,78,77,90,60,46,88,71,84,94,78,87
+Jordi Alba,29,Spain,FC Barcelona,3800000,3,18,7,0,2,2012,5'7,150lbs,87,93,93,90,85,64,81,91,61,59,87
+J. Vertonghen,31,Belgium,Tottenham Hotspur,3400000,3,5,8,0,2,2012,6'2,190lbs,68,61,65,61,60,80,85,75,79,66,87
+I. Rakitiƒá,30,Croatia,FC Barcelona,4650000,4,4,19,1,2,2014,6'0,172lbs,84,66,59,72,66,84,39,84,66,82,87
+Piqu,31,Spain,FC Barcelona,3400000,4,3,18,1,2,2008,6'4,187lbs,57,49,60,58,36,62,74,65,83,69,87
+L. Sana,22,Germany,Manchester City,6100000,2,19,14,0,0,2016,6'0,165lbs,83,93,96,88,81,86,64,79,70,71,86
+Bernardo Silva,23,Portugal,Manchester City,5950000,2,11,24,0,0,2017,5'8,141lbs,85,84,74,90,88,70,50,78,48,68,86
+Ederson,24,Brazil,Manchester City,4150000,2,31,5,0,2,2017,6'2,190lbs,20,64,63,60,48,42,58,41,68,17,86
+S. Mana,26,Senegal,Liverpool,5200000,3,10,12,1,0,2016,5'9,152lbs,73,95,93,91,86,82,75,84,67,71,86
+V. van Dijk,26,Netherlands,Liverpool,4450000,3,4,8,1,2,2018,6'4,203lbs,53,74,77,61,49,81,85,71,92,62,86
+R. Sterling,23,England,Manchester City,5650000,3,10,24,1,0,2015,5'7,152lbs,77,95,92,93,93,73,57,78,52,69,86
+Roberto Firmino,26,Brazil,Liverpool,5300000,3,9,0,1,0,2015,5'11,168lbs,72,78,77,80,81,81,81,90,74,72,86
+R. Varane,25,France,Real Madrid,5000000,3,4,18,1,0,2011,6'3,179lbs,36,83,85,63,40,52,79,73,84,43,86
+M. Verratti,25,Italy,Paris Saint-Germain,5500000,3,6,9,1,2,2012,5'5,132lbs,72,69,62,87,94,56,64,77,52,64,86
+Alex Sandro,27,Brazil,Juventus,3650000,3,12,7,0,2,2015,5'11,176lbs,84,83,86,79,78,80,79,92,79,60,86
+Douglas Costa,27,Brazil,Juventus,4650000,3,11,12,0,2,2018,5'8,154lbs,84,97,93,93,91,86,61,78,63,77,86
+T. Mueller,28,Germany,FC Bayern Munchen,4500000,4,13,0,1,0,2008,6'1,165lbs,79,73,75,75,72,78,81,87,68,60,86
+Thiago,27,Spain,FC Bayern Munchen,4550000,3,19,4,1,2,2013,5'9,154lbs,72,78,69,90,86,75,75,75,59,75,86
+M. Reus,29,Germany,Borussia Dortmund,4350000,4,11,12,1,0,2012,5'11,157lbs,79,86,85,86,81,88,70,73,67,89,86
+Azpilicueta,28,Spain,Chelsea,3500000,3,14,17,1,2,2012,5'10,168lbs,81,76,76,72,73,68,76,87,71,66,86
+L. Bonucci,31,Italy,Juventus,3000000,3,19,18,1,0,2018,6'3,187lbs,44,57,65,60,52,74,85,71,83,70,86
+T. Alderweireld,29,Belgium,Tottenham Hotspur,3900000,3,2,18,1,2,2015,6'1,179lbs,64,61,66,60,50,78,84,74,79,58,86
+M. Pjaniƒá,28,Bosnia Herzegovina,Juventus,4400000,3,5,2,1,2,2016,5'10,159lbs,80,66,66,77,79,78,61,78,66,79,86
+M. Benatia,31,Morocco,Juventus,3000000,3,4,1,1,2,2014,6'2,207lbs,45,65,75,59,53,66,85,69,91,41,86
+M. √ñzil,29,Germany,Arsenal,4350000,4,10,0,0,0,2013,5'11,168lbs,83,72,69,79,70,70,48,69,57,67,86
+Fernandinho,33,Brazil,Manchester City,1800000,3,25,2,1,0,2013,5'10,148lbs,68,68,67,72,78,83,76,79,76,61,86
+Marco Asensio,22,Spain,Real Madrid,5400000,3,10,24,0,2,2015,6'0,168lbs,82,85,82,79,76,86,58,76,61,62,85
+Alisson,25,Brazil,Liverpool,3650000,3,13,5,1,2,2018,6'3,201lbs,17,54,45,40,37,21,52,32,78,23,85
+J. Kimmich,23,Germany,FC Bayern Munchen,4050000,3,18,19,1,0,2015,5'9,154lbs,90,78,68,84,83,75,79,85,65,44,85
+Savlo,23,Spain,Atletico Madrid,5050000,3,6,19,0,0,2013,6'0,170lbs,69,74,73,76,69,78,79,86,77,55,85
+R. Mahrez,27,Algeria,Manchester City,4050000,3,26,24,0,0,2018,5'10,148lbs,81,88,83,93,88,79,61,76,54,73,85
+D. Alaba,26,Austria,FC Bayern Munchen,3800000,4,8,7,0,0,2010,5'11,168lbs,81,79,86,79,77,83,82,87,71,80,85
+Koke,26,Spain,Atletico Madrid,4500000,3,8,12,1,2,2011,5'9,163lbs,86,71,68,74,78,84,61,90,79,59,85
+A. Lacazette,27,France,Arsenal,4500000,3,9,26,1,2,2017,5'9,161lbs,64,81,84,85,85,83,76,79,73,84,85
+N. Otamendi,30,Argentina,Manchester City,2850000,3,30,1,1,2,2015,6'0,179lbs,52,57,61,64,62,69,92,67,80,45,85
+W. Szczƒôsny,28,Poland,Juventus,3200000,3,1,5,1,0,2017,6'5,198lbs,12,51,47,55,51,15,71,45,65,18,85
+A. Sanchez,29,Chile,Manchester United,3750000,4,7,24,1,2,2018,5'7,163lbs,77,86,79,90,87,84,87,83,72,77,85
+J. Boateng,29,Germany,FC Bayern Munchen,3000000,4,17,18,1,4,2011,6'4,198lbs,69,67,72,56,52,78,74,69,91,46,85
+A. Vidal,31,Chile,FC Barcelona,2600000,4,8,0,1,2,2018,5'11,165lbs,76,60,55,74,75,86,85,83,79,81,85
+S. Khedira,31,Germany,Juventus,3300000,3,6,19,1,2,2015,6'2,198lbs,72,54,60,55,54,82,68,78,87,69,85
+Diego Costa,29,Spain,Atletico Madrid,3850000,4,19,13,1,2,2018,6'2,190lbs,65,74,76,58,53,83,64,76,92,75,85
+B. Matuidi,31,France,Juventus,2600000,3,14,12,0,0,2017,5'11,165lbs,75,79,77,83,79,78,84,94,76,56,85
+K. Benzema,30,France,Real Madrid,3700000,4,9,26,1,2,2009,6'1,179lbs,75,76,76,76,66,81,73,75,80,82,85
+Filipe Luis,32,Brazil,Atletico Madrid,2150000,3,3,7,0,0,2015,6'0,163lbs,86,76,75,75,62,71,71,89,74,65,85
+V. Kompany,32,Belgium,Manchester City,2200000,4,4,1,1,2,2008,6'3,187lbs,61,52,59,57,41,75,72,66,87,63,85
+D. Sanchez,22,Colombia,Tottenham Hotspur,3400000,2,23,18,1,2,2017,6'2,174lbs,36,72,79,60,55,66,73,76,83,44,84
+J. Giminez,23,Uruguay,Atletico Madrid,3400000,2,24,18,1,2,2013,6'1,176lbs,47,69,70,56,43,72,92,67,85,38,84
+A. Laporte,24,France,Manchester City,3400000,2,14,8,0,2,2018,6'2,187lbs,58,62,66,45,55,68,75,67,82,44,84
+N. Saule,22,Germany,FC Bayern Munchen,3650000,2,15,1,1,4,2017,6'5,214lbs,30,52,84,33,33,77,38,65,94,32,84
+A. Martial,22,France,Manchester United,4250000,3,11,14,1,2,2015,6'0,168lbs,76,88,89,85,81,84,74,75,75,81,84
+D. Alli,22,England,Tottenham Hotspur,4250000,3,20,9,1,0,2015,6'2,176lbs,69,73,76,76,62,78,67,90,71,74,84
+Fabinho,24,Brazil,Liverpool,3400000,3,3,2,1,0,2018,6'2,172lbs,79,69,72,69,67,78,75,92,79,91,84
+Marquinhos,24,Brazil,Paris Saint-Germain,3550000,3,5,10,1,0,2013,6'0,165lbs,72,73,76,69,68,53,86,75,74,31,84
+Jorginho,26,Italy,Chelsea,3800000,2,8,4,1,0,2018,5'11,148lbs,75,75,69,80,73,71,58,79,66,84,84
+Carvajal,26,Spain,Real Madrid,3150000,3,2,17,1,4,2013,5'8,161lbs,83,79,84,81,79,64,76,84,74,45,84
+H. Son,25,Korea Republic,Tottenham Hotspur,3700000,3,7,12,1,0,2015,6'0,143lbs,78,88,87,82,76,86,63,85,63,71,84
+M. Perin,25,Italy,Juventus,2950000,2,22,5,1,0,2018,6'2,170lbs,11,57,56,70,30,23,75,30,52,21,84
+J. Cuadrado,30,Colombia,Juventus,2950000,3,11,16,1,0,2015,5'10,159lbs,80,89,93,91,82,84,75,78,61,65,84
+Iago Aspas,30,Spain,RC Celta,3000000,2,17,26,0,0,2015,5'9,148lbs,80,85,78,87,74,79,68,75,60,82,84
+B. Leno,26,Germany,Arsenal,2700000,3,12,5,1,2,2018,6'3,183lbs,9,46,52,52,44,23,73,43,68,23,84
+N. Matiƒá,29,Serbia,Manchester United,2400000,3,31,2,0,0,2017,6'4,187lbs,71,52,59,44,50,83,67,84,85,64,84
+K. Walker,28,England,Manchester City,2450000,3,2,17,1,2,2017,6'0,154lbs,81,86,93,67,72,86,83,89,75,63,84
+I. Gundoƒüan,27,Germany,Manchester City,3200000,3,21,4,1,2,2016,5'11,176lbs,74,67,68,78,78,77,61,69,72,76,84
+A. Di Maravia,30,Argentina,Paris Saint-Germain,2950000,4,11,22,0,0,2015,5'11,152lbs,83,85,84,92,77,83,72,73,60,73,84
+M. Mandaukiƒá,32,Croatia,Juventus,2500000,3,17,26,1,0,2015,6'3,187lbs,72,67,73,67,53,80,85,83,85,76,84
+Willian,29,Brazil,Chelsea,3050000,3,22,24,1,0,2013,5'9,172lbs,76,91,86,89,79,79,41,85,60,70,84
+A. Witsel,29,Belgium,Borussia Dortmund,2400000,3,6,9,1,0,2018,6'2,179lbs,69,67,74,78,60,78,76,86,82,81,84
+Sokratis,30,Greece,Arsenal,2300000,3,19,18,1,2,2018,6'1,187lbs,47,64,73,60,64,77,86,69,86,24,84
+A. Barzagli,37,Italy,Juventus,420000,3,15,1,1,2,2011,6'2,192lbs,40,61,77,52,64,54,81,53,83,60,84
+A. Robben,34,Netherlands,FC Bayern Munchen,1550000,4,10,22,0,2,2009,5'11,176lbs,80,83,76,87,90,86,60,64,67,78,84
+O. Dembolo,21,France,FC Barcelona,4000000,3,11,24,0,0,2017,5'10,148lbs,78,93,92,90,85,83,59,73,46,75,83
+Gabriel Jesus,21,Brazil,Manchester City,4100000,2,33,26,1,2,2016,5'9,161lbs,66,87,85,92,91,78,77,84,68,78,83
+P. Kimpembe,22,France,Paris Saint-Germain,3050000,2,3,8,0,2,2015,6'2,176lbs,62,75,78,74,65,55,77,80,84,50,83
+N. Keota,23,Guinea,Liverpool,3400000,2,8,4,1,0,2018,5'8,141lbs,62,78,60,89,90,76,53,82,58,58,83
+C. Tolisso,23,France,FC Bayern Munchen,3400000,2,24,4,1,2,2017,5'11,179lbs,67,75,66,75,74,82,90,87,77,70,83
+T. Lemar,22,France,Atletico Madrid,3550000,3,8,12,0,0,2018,5'7,137lbs,83,86,84,87,86,79,71,79,63,68,83
+K. Coman,22,France,FC Bayern Munchen,3400000,2,29,12,1,0,2015,5'10,157lbs,81,95,93,87,84,77,75,76,61,70,83
+A. Rabiot,23,France,Paris Saint-Germain,3300000,2,25,4,0,0,2012,6'4,176lbs,70,73,74,79,72,80,73,82,80,69,83
+L. Goretzka,23,Germany,FC Bayern Munchen,3400000,3,14,4,1,0,2018,6'2,174lbs,75,84,79,76,70,77,67,86,70,60,83
+Lucas vizquez,27,Spain,Real Madrid,2700000,2,17,24,1,2,2015,5'8,154lbs,86,84,79,79,84,82,68,90,57,56,83
+M. Kovaƒcifa,24,Croatia,Chelsea,3500000,3,17,9,1,2,2012,5'9,172lbs,73,84,74,81,85,79,63,82,65,59,83
+Kepa,23,Spain,Chelsea,2850000,1,13,5,1,0,2018,6'1,187lbs,25,34,33,41,39,25,71,37,51,24,83
+S. Gnabry,22,Germany,FC Bayern Munchen,3450000,2,6,26,1,2,2017,5'9,165lbs,74,92,90,87,88,85,64,68,68,68,83
+J. Pickford,24,England,Everton,2500000,1,1,5,0,2,2017,6'1,170lbs,17,53,44,55,55,31,72,45,70,41,83
+S. Saviƒá,27,Montenegro,Atletico Madrid,2600000,2,15,1,1,0,2015,6'2,174lbs,35,55,61,61,49,43,87,58,77,37,83
+J. Stones,24,England,Manchester City,2850000,2,5,18,1,0,2016,6'2,154lbs,62,67,71,61,59,46,75,79,77,44,83
+J. Draxler,24,Germany,Paris Saint-Germain,3250000,3,7,4,1,0,2017,6'2,170lbs,83,78,77,80,75,86,75,69,66,63,83
+Lucas Moura,25,Brazil,Tottenham Hotspur,3100000,3,27,22,1,2,2018,5'9,154lbs,75,94,90,94,90,79,77,75,59,74,83
+Nacho Fernandez,28,Spain,Real Madrid,2450000,2,12,1,1,2,2010,5'11,168lbs,70,70,79,60,68,54,81,78,79,45,83
+Sergi Roberto,26,Spain,FC Barcelona,2650000,3,20,17,1,2,2013,5'10,150lbs,85,78,79,69,74,65,47,85,69,57,83
+I. Gueye,28,Senegal,Everton,2100000,2,17,20,1,0,2016,5'9,146lbs,60,76,72,80,80,80,87,89,70,54,83
+H. Mkhitaryan,29,Armenia,Arsenal,2550000,3,7,22,1,2,2018,5'10,165lbs,77,84,78,87,85,85,69,83,62,72,83
+Marcos Alonso,27,Spain,Chelsea,2400000,2,3,7,0,0,2016,6'2,192lbs,85,69,76,64,58,84,71,90,76,64,83
+David Luiz,31,Brazil,Chelsea,1750000,4,30,8,1,2,2016,6'2,190lbs,68,59,62,69,56,79,78,66,79,75,83
+Juan Mata,30,Spain,Manchester United,2450000,3,8,22,0,0,2014,5'7,139lbs,83,69,62,84,89,75,70,71,37,81,83
+Adan,31,Spain,Atletico Madrid,1550000,2,1,5,0,2,2018,6'3,203lbs,12,56,54,55,51,25,71,32,77,25,83
+Rui Patr√≠cio,30,Portugal,Wolverhampton Wanderers,1650000,3,1,5,0,2,2018,6'3,185lbs,12,53,57,61,54,38,79,45,77,32,83
+Javi Mart√≠nez,29,Spain,FC Bayern Munchen,2000000,3,8,2,1,2,2012,6'4,190lbs,60,49,53,53,48,76,85,74,84,52,83
+Cesc F√†bregas,31,Spain,Chelsea,2200000,4,4,4,1,2,2014,5'10,170lbs,85,56,54,62,75,77,63,56,61,78,83
+M. Dembolo,30,Belgium,Tottenham Hotspur,2400000,3,19,4,0,2,2012,6'1,181lbs,65,72,72,79,76,81,75,70,89,63,83
+F. Ribary,35,France,FC Bayern Munchen,1150000,4,7,12,1,2,2007,5'7,159lbs,80,78,78,84,90,75,34,58,60,78,83
+Rodri,22,Spain,Atletico Madrid,2900000,1,16,4,1,0,2018,6'3,181lbs,63,70,66,69,72,70,69,86,75,46,82
+Arthur,21,Brazil,FC Barcelona,3250000,1,8,9,1,2,2018,5'7,161lbs,70,68,70,79,86,76,83,78,62,69,82
+Gelson Martins,23,Portugal,Atletico Madrid,2950000,3,18,22,1,0,2018,5'8,159lbs,81,95,94,94,92,72,65,87,48,66,82
+L. Torreira,22,Uruguay,Arsenal,2500000,2,14,9,1,2,2018,5'6,141lbs,74,81,74,83,93,78,52,85,66,48,82
+Malcom,21,Brazil,FC Barcelona,3150000,2,14,24,0,2,2018,5'8,163lbs,79,87,82,92,84,85,58,74,64,68,82
+L. Hern√°ndez,22,France,Atletico Madrid,2550000,1,21,7,0,2,2015,6'0,168lbs,78,80,84,70,67,62,83,82,76,34,82
+C. Lenglet,23,France,FC Barcelona,2600000,1,15,8,0,0,2018,6'1,179lbs,36,72,73,62,60,58,79,73,80,43,82
+A. Robertson,24,Scotland,Liverpool,2450000,1,3,7,0,0,2017,5'10,141lbs,86,81,86,78,74,67,59,89,66,55,82
+F. Bernardeschi,24,Italy,Juventus,2950000,2,20,22,0,0,2017,6'1,170lbs,82,83,83,85,79,82,49,80,63,72,82
+D. Rugani,23,Italy,Juventus,2450000,2,15,1,1,0,2015,6'3,185lbs,40,56,67,59,53,58,81,67,79,36,82
+Jojo Cancelo,24,Portugal,Juventus,2550000,2,2,17,1,0,2018,6'0,163lbs,85,91,91,78,74,80,73,89,66,46,82
+T. Partey,25,Ghana,Atletico Madrid,2550000,1,5,2,1,0,2015,6'1,170lbs,58,73,76,72,53,79,84,87,81,46,82
+Fred,25,Brazil,Manchester United,2650000,1,17,4,0,0,2018,5'7,141lbs,67,77,79,84,87,76,83,87,61,65,82
+J. Lingard,25,England,Manchester United,2650000,2,7,0,1,0,2010,5'9,137lbs,74,84,82,86,86,80,63,87,53,65,82
+A. R√ºdiger,25,Germany,Chelsea,2250000,2,16,1,1,0,2017,6'3,187lbs,68,67,78,59,50,70,73,60,82,40,82
+T. Meunier,26,Belgium,Paris Saint-Germain,2100000,2,15,22,1,2,2016,6'3,198lbs,83,74,81,63,49,77,72,92,85,65,82
+Rafinha,25,Brazil,FC Barcelona,2950000,2,12,0,0,2,2013,5'9,157lbs,72,71,70,80,80,79,73,67,66,67,82
+Morata,25,Spain,Chelsea,2850000,3,7,26,1,2,2017,6'2,187lbs,73,76,86,66,60,80,84,68,78,70,82
+J. Cillessen,29,Netherlands,FC Barcelona,1800000,3,1,5,1,2,2016,6'1,183lbs,17,54,50,48,50,35,71,40,67,21,82
+T. Delaney,26,Denmark,Borussia Dortmund,2150000,2,8,9,0,2,2018,6'0,174lbs,67,76,78,73,74,78,91,90,79,60,82
+M. Gotze,26,Germany,Borussia Dortmund,2700000,4,10,4,1,2,2016,5'9,165lbs,78,74,64,86,85,68,58,73,68,77,82
+S. Mustafi,26,Germany,Arsenal,2250000,3,20,18,1,2,2016,6'0,181lbs,53,58,65,63,67,66,83,68,78,54,82
+Pedro,30,Spain,Chelsea,2100000,3,11,24,1,0,2015,5'7,143lbs,78,79,74,82,80,77,66,70,47,66,82
+R. Borrki,27,Switzerland,Borussia Dortmund,1850000,3,21,5,1,2,2015,6'2,187lbs,15,44,54,49,52,22,74,36,74,20,82
+A. Ramsey,27,Wales,Arsenal,2500000,3,10,0,1,0,2008,6'0,168lbs,75,64,69,73,74,81,66,89,67,75,82
+K. Trippier,27,England,Tottenham Hotspur,1850000,2,12,17,1,2,2015,5'10,159lbs,91,76,75,74,74,75,73,88,65,66,82
+G. Sigursson,28,Iceland,Everton,2250000,3,10,0,1,2,2017,6'1,181lbs,86,58,55,68,63,83,68,86,68,79,82
+J. Henderson,28,England,Liverpool,1800000,2,8,19,1,2,2011,6'0,176lbs,81,67,66,70,70,77,79,91,72,64,82
+G. Wijnaldum,27,Netherlands,Liverpool,1250000,3,8,0,1,0,2016,5'9,152lbs,67,77,76,80,81,76,80,85,72,74,82
+O. Giroud,31,France,Chelsea,2000000,3,9,26,0,2,2018,6'4,203lbs,64,43,50,57,54,85,84,62,88,83,82
+L. Koscielny,32,France,Arsenal,1250000,3,6,1,1,0,2010,6'1,165lbs,52,64,66,65,61,54,78,62,75,51,82
+Dani Alves,35,Brazil,Paris Saint-Germain,480000,4,13,17,1,2,2017,5'8,150lbs,85,77,79,84,87,86,80,74,55,70,82
+P. ƒåech,36,Czech Republic,Arsenal,300000,4,1,5,0,2,2015,6'5,198lbs,19,35,38,46,34,21,50,32,63,23,82
+M. Rashford,20,England,Manchester United,2700000,2,11,14,1,0,2014,6'1,154lbs,75,90,93,88,77,87,68,79,71,74,81
+M. Akanji,22,Switzerland,Borussia Dortmund,2100000,2,5,8,1,2,2018,6'2,187lbs,51,72,86,69,66,58,78,76,84,40,81
+Nellson Semedo,24,Portugal,FC Barcelona,2000000,2,2,17,1,0,2017,5'10,148lbs,74,91,92,88,83,74,80,91,62,38,81
+E. Bailly,24,Ivory Coast,Manchester United,2100000,2,2,1,1,2,2016,6'1,170lbs,51,68,79,65,62,55,85,72,85,46,81
+Dani Ceballos,21,Spain,Real Madrid,2500000,1,21,9,1,2,2017,5'10,154lbs,74,73,67,82,79,64,52,75,62,55,81
+A. Correa,23,Argentina,Atletico Madrid,2450000,1,11,22,1,0,2014,5'7,150lbs,74,87,82,87,83,80,50,74,63,55,81
+A. Christensen,22,Denmark,Chelsea,2150000,2,6,8,1,0,2013,6'2,179lbs,49,66,70,61,61,31,72,69,73,36,81
+R. Guerreiro,24,Portugal,Borussia Dortmund,2400000,3,13,12,0,2,2016,5'7,157lbs,85,82,68,88,86,79,63,72,49,44,81
+B. Davies,25,Wales,Tottenham Hotspur,1850000,2,4,7,0,0,2014,6'0,168lbs,83,76,74,70,68,65,73,85,69,54,81
+B. Mendy,23,France,Manchester City,2000000,2,22,7,0,2,2017,6'1,187lbs,87,77,86,68,70,79,71,81,81,50,81
+Paco Alcacer,24,Spain,Borussia Dortmund,2350000,2,9,26,1,2,2018,5'9,159lbs,53,82,80,83,84,80,75,65,64,71,81
+Vitolo,28,Spain,Atletico Madrid,1800000,2,23,12,1,2,2017,6'1,174lbs,78,78,77,74,63,77,70,80,81,74,81
+G. Xhaka,25,Switzerland,Arsenal,2200000,3,10,10,0,2,2016,6'1,181lbs,71,47,49,49,61,88,32,80,75,63,81
+D. Lovren,28,Croatia,Liverpool,1600000,2,6,18,1,2,2014,6'2,185lbs,59,54,55,50,41,63,81,68,82,52,81
+X. Shaqiri,26,Switzerland,Liverpool,1900000,3,23,0,0,3,2018,5'7,159lbs,78,84,77,84,91,87,52,75,73,65,81
+A. Areola,25,France,Paris Saint-Germain,1650000,2,23,5,1,0,2010,6'5,207lbs,20,54,52,53,58,25,59,28,80,25,81
+Ander Herrera,28,Spain,Manchester United,1750000,3,21,4,1,0,2014,6'0,154lbs,74,75,68,79,78,75,61,87,67,79,81
+C. Smalling,28,England,Manchester United,1600000,3,12,18,1,0,2010,6'4,179lbs,52,61,74,55,45,42,76,71,87,52,81
+S. Kagawa,29,Japan,Borussia Dortmund,1750000,3,23,0,1,0,2014,5'9,150lbs,65,74,60,87,88,54,65,82,39,80,81
+O. Toprak,28,Turkey,Borussia Dortmund,1600000,3,36,1,1,2,2017,6'1,183lbs,49,71,83,64,61,62,80,67,78,43,81
+L. Piszczek,33,Poland,Borussia Dortmund,700000,3,26,17,1,2,2020,6'0,174lbs,82,74,83,66,66,78,77,77,78,65,81
+E. Lamela,26,Argentina,Tottenham Hotspur,2100000,2,22,22,0,0,2013,6'0,176lbs,78,76,74,75,74,81,63,78,68,75,81
+D. Rose,27,England,Tottenham Hotspur,1450000,3,3,7,0,2,2007,5'9,168lbs,82,79,78,69,76,68,75,78,72,57,81
+A. Valencia,32,Ecuador,Manchester United,1000000,2,16,22,1,4,2009,5'11,183lbs,79,82,85,72,78,85,69,79,79,55,81
+Jojo Moutinho,31,Portugal,Wolverhampton Wanderers,1500000,3,28,19,1,2,2018,5'7,134lbs,77,66,59,76,84,76,77,78,63,70,81
+J. Milner,32,England,Liverpool,1350000,2,7,4,1,4,2015,5'9,154lbs,86,63,62,69,73,82,62,91,71,83,81
+M. Gomez,21,Uruguay,RC Celta,2050000,1,18,26,1,4,2017,6'1,185lbs,56,61,65,45,53,79,73,71,80,67,80
+Odriozola,22,Spain,Real Madrid,1850000,1,19,17,1,0,2018,5'9,146lbs,81,80,82,78,79,58,71,80,63,62,80
+R√∫ben Neves,21,Portugal,Wolverhampton Wanderers,2050000,2,5,9,1,2,2017,5'11,176lbs,75,64,64,65,70,83,68,78,70,62,80
+Mariano,24,Dominican Republic,Real Madrid,2000000,1,7,26,1,2,2018,5'11,168lbs,50,84,85,79,72,85,92,81,79,75,80
+M. Dahoud,22,Germany,Borussia Dortmund,2000000,2,19,4,1,0,2017,5'10,150lbs,67,78,67,87,84,83,76,89,58,55,80
+Andrew Gomes,24,Portugal,Everton,1950000,3,8,10,1,2,2017,6'2,185lbs,61,68,62,67,64,80,58,76,86,55,80
+E. Can,24,Germany,Juventus,1950000,2,23,4,1,2,2018,6'0,181lbs,70,69,73,73,71,81,76,85,83,60,80
+M. Keane,25,England,Everton,1550000,2,4,18,1,2,2017,6'3,181lbs,60,58,65,59,62,58,82,68,85,48,80
+L. Shaw,22,England,Manchester United,1650000,2,23,7,0,4,2014,5'11,165lbs,82,83,85,74,74,65,73,77,75,53,80
+S. Haller,24,France,Eintracht Frankfurt,1900000,1,9,23,1,2,2017,6'3,201lbs,40,68,76,68,53,77,80,72,91,88,80
+Bernard,25,Brazil,Everton,1750000,2,20,12,1,0,2018,5'5,132lbs,77,94,86,94,96,76,61,68,34,57,80
+Hwcctor Bellercen,23,Spain,Arsenal,1650000,3,2,17,1,0,2014,5'10,163lbs,76,94,91,82,77,52,63,84,58,62,80
+E. Dier,24,England,Tottenham Hotspur,1650000,2,4,2,1,2,2014,6'2,198lbs,67,62,68,52,38,82,77,78,89,70,80
+L. Digne,24,France,Everton,1600000,2,12,7,0,0,2018,5'10,163lbs,82,76,75,68,79,77,73,79,69,60,80
+A. Oxlade-Chamberlain,24,England,Liverpool,1950000,2,21,4,1,4,2017,5'9,154lbs,78,84,85,81,88,80,69,82,72,69,80
+S. Aurier,25,Ivory Coast,Tottenham Hotspur,1550000,2,17,17,1,2,2017,5'9,168lbs,83,79,78,73,76,71,94,77,74,64,80
+J. Matip,26,Cameroon,Liverpool,1500000,2,32,1,1,0,2016,6'4,198lbs,54,55,69,55,47,66,66,73,77,42,80
+Hugo Mallo,27,Spain,RC Celta,1350000,2,2,17,1,2,2009,5'9,159lbs,84,71,71,77,66,74,82,91,69,23,80
+K. Trapp,27,Germany,Eintracht Frankfurt,1150000,2,31,5,1,2,2017,6'2,190lbs,13,45,52,42,37,22,75,45,73,17,80
+V. Wanyama,27,Kenya,Tottenham Hotspur,1450000,2,12,2,1,2,2016,6'0,192lbs,62,54,61,68,65,79,79,78,92,65,80
+S. Ulreich,29,Germany,FC Bayern Munchen,1000000,2,26,5,1,0,2015,6'4,185lbs,14,41,40,34,39,24,66,29,41,22,80
+F. Delph,28,England,Manchester City,1150000,2,18,7,0,0,2015,5'9,172lbs,74,75,72,87,86,82,67,87,65,65,80
+A. Lallana,30,England,Liverpool,1350000,3,20,4,1,0,2014,5'10,161lbs,74,70,69,78,75,72,70,77,64,70,80
+S. Coleman,29,Republic of Ireland,Everton,1100000,2,2,25,1,2,2009,5'10,148lbs,82,77,75,73,74,75,71,77,69,55,80
+Nacho Monreal,32,Spain,Arsenal,800000,2,18,7,0,0,2013,5'10,159lbs,76,72,67,70,73,74,74,74,65,61,80
+S. Romero,31,Argentina,Manchester United,900000,3,1,5,1,2,2015,6'4,192lbs,11,47,44,52,44,14,63,35,75,16,80
+D. Sturridge,28,England,Liverpool,1550000,3,15,26,0,2,2013,5'11,168lbs,62,72,78,74,64,82,70,55,66,75,80
+G. Cahill,32,England,Chelsea,850000,3,24,1,1,2,2012,6'4,194lbs,28,42,48,51,47,63,80,61,79,53,80
+L. Diarra,33,France,Paris Saint-Germain,600000,3,19,2,1,2,2018,5'9,163lbs,60,69,69,79,87,74,76,85,68,49,80
+Juanfran,33,Spain,Atletico Madrid,550000,3,20,17,1,0,2011,5'11,157lbs,81,74,86,74,63,68,68,80,74,66,80
+Richarlison,21,Brazil,Everton,1800000,1,30,26,1,2,2018,5'11,154lbs,69,83,85,78,74,80,80,78,76,69,79
+C. Pulisic,19,United States,Borussia Dortmund,600000,3,10,22,1,0,2016,5'10,152lbs,69,93,88,87,89,79,84,74,52,61,79
+Marcos Llorente,23,Spain,Real Madrid,1600000,1,18,2,1,0,2014,6'0,161lbs,56,61,59,58,66,58,66,75,72,53,79
+A. Diallo,22,France,Borussia Dortmund,1500000,2,4,8,0,0,2018,6'1,174lbs,66,75,77,75,69,43,84,76,78,41,79
+J. Weigl,22,Germany,Borussia Dortmund,1450000,3,33,2,1,0,2015,6'1,159lbs,58,72,59,77,65,48,67,80,63,50,79
+V. Lindel√∂f,23,Sweden,Manchester United,1450000,2,3,1,1,0,2017,6'2,176lbs,64,68,77,66,63,68,75,75,77,55,79
+A. Rebiƒá,24,Croatia,Eintracht Frankfurt,1600000,1,4,0,1,2,2017,6'1,172lbs,74,83,86,75,66,81,66,80,83,63,79
+M. Philipp,24,Germany,Borussia Dortmund,1700000,2,20,26,1,0,2017,6'0,174lbs,66,84,79,83,75,82,59,68,68,75,79
+D. Zappacosta,26,Italy,Chelsea,1250000,2,21,17,1,0,2017,6'0,159lbs,81,74,79,72,73,75,67,87,68,59,79
+Jonny,24,Spain,Wolverhampton Wanderers,1350000,2,19,15,1,2,2017,5'7,154lbs,77,77,78,72,78,66,75,83,64,46,79
+S. Kolainac,25,Bosnia Herzegovina,Arsenal,1300000,2,31,7,0,4,2017,6'0,187lbs,77,68,75,49,55,82,76,79,90,44,79
+Denis Suarez,24,Spain,FC Barcelona,1750000,2,6,4,1,0,2016,5'9,152lbs,77,77,77,82,76,75,58,72,57,63,79
+K. Zouma,23,France,Everton,1400000,2,22,1,1,2,2017,6'3,212lbs,49,60,70,45,52,63,89,63,91,59,79
+M. Rojo,28,Argentina,Manchester United,1000000,3,16,1,0,2,2014,6'2,176lbs,74,68,69,68,63,80,82,68,77,64,79
+L. Kurzawa,25,France,Paris Saint-Germain,1300000,2,20,7,0,0,2015,6'0,168lbs,79,79,74,75,72,69,82,79,72,54,79
+M. van Ginkel,25,Netherlands,Chelsea,1450000,2,26,4,1,0,2013,6'1,181lbs,71,62,69,71,59,79,74,76,71,84,79
+Danilo,26,Brazil,Manchester City,1200000,2,3,17,1,0,2017,6'0,172lbs,74,73,76,70,65,85,74,82,76,67,79
+R. Barkley,24,England,Chelsea,1600000,2,15,0,1,2,2018,6'1,192lbs,65,69,70,66,58,81,62,69,77,65,79
+P. Jones,26,England,Manchester United,1200000,2,4,1,1,2,2011,6'1,157lbs,60,54,59,52,59,68,82,64,79,55,79
+C. Tosun,27,Turkey,Everton,1450000,2,9,26,1,2,2018,6'0,172lbs,64,72,75,73,66,83,80,73,74,82,79
+N. Clyne,27,England,Liverpool,1150000,2,2,17,1,2,2015,5'9,148lbs,78,77,78,79,75,74,69,76,67,46,79
+M. Hitz,30,Switzerland,Borussia Dortmund,800000,2,35,5,1,2,2018,6'4,196lbs,12,41,46,41,31,38,67,39,78,22,79
+D. Drinkwater,28,England,Chelsea,1250000,2,6,4,1,2,2017,5'10,179lbs,64,63,63,67,76,77,54,77,69,53,79
+N. Kaliniƒá,30,Croatia,Atletico Madrid,1200000,3,9,26,1,0,2018,6'2,176lbs,60,67,73,69,58,76,68,71,77,70,79
+Kiko Casilla,31,Spain,Real Madrid,750000,2,13,5,1,2,2015,6'3,190lbs,24,32,49,43,58,24,69,43,79,23,79
+M. Schneiderlin,28,France,Everton,1000000,2,18,2,1,0,2017,6'1,165lbs,65,58,58,69,69,71,68,79,75,56,79
+M. Fellaini,30,Belgium,Manchester United,1150000,3,8,4,1,0,2013,6'4,187lbs,61,41,48,47,49,75,64,75,91,64,79
+S. Mignolet,30,Belgium,Liverpool,800000,3,12,5,1,2,2013,6'4,192lbs,11,50,52,34,52,45,69,31,72,41,79
+T. Walcott,29,England,Everton,1250000,3,11,22,1,0,2018,5'9,150lbs,72,89,89,79,77,76,65,69,56,74,79
+D. Abraham,31,Argentina,Eintracht Frankfurt,850000,2,19,1,1,2,2015,6'2,185lbs,44,76,79,61,55,74,77,68,80,54,79
+A. Young,32,England,Manchester United,700000,2,18,7,1,0,2011,5'9,143lbs,84,77,72,77,76,75,55,75,67,60,79
+S. Lichtsteiner,34,Switzerland,Arsenal,360000,3,2,17,1,0,2018,6'0,168lbs,78,65,69,73,77,74,73,76,70,64,79
+A. Hakimi,19,Morocco,Borussia Dortmund,1250000,1,5,7,1,2,2017,5'11,161lbs,76,89,91,75,75,75,69,84,73,46,78
+L. Joviƒá,20,Serbia,Eintracht Frankfurt,1550000,1,8,13,1,2,2008,6'0,192lbs,63,75,77,74,65,79,66,69,76,60,78
+T. Alexander-Arnold,19,England,Liverpool,1400000,1,14,17,1,0,2015,5'11,152lbs,83,82,79,74,74,70,66,79,62,55,78
+Vallejo,21,Spain,Real Madrid,1350000,1,3,1,1,0,2015,6'0,174lbs,41,67,74,69,69,49,77,66,69,45,78
+J. Gomez,21,England,Liverpool,1450000,1,16,1,1,2,2015,6'2,170lbs,69,80,83,64,66,41,66,74,80,26,78
+Diogo Jota,21,Portugal,Wolverhampton Wanderers,1550000,2,18,14,1,0,2018,5'10,161lbs,65,87,76,87,87,78,66,82,72,61,78
+Y. Mina,23,Colombia,Everton,1250000,1,13,8,1,2,2018,6'5,207lbs,43,45,62,53,34,70,70,79,87,53,78
+S. Lobotka,23,Slovakia,RC Celta,1400000,1,14,4,1,2,2017,5'7,141lbs,63,70,63,78,84,62,82,86,52,56,78
+M. Sportiello,26,Italy,Frosinone,900000,2,57,5,1,0,2009,6'4,192lbs,13,48,38,55,58,19,68,37,66,21,78
+A. Iwobi,22,Nigeria,Arsenal,1400000,1,17,12,1,2,2013,6'1,165lbs,67,80,77,76,75,67,47,74,70,59,78
+L. Dendoncker,23,Belgium,Wolverhampton Wanderers,1200000,2,20,1,1,2,2012,6'2,194lbs,75,61,68,57,53,86,66,89,87,44,78
+P. Sisto,23,Denmark,RC Celta,1400000,1,23,14,1,0,2016,5'8,152lbs,78,81,81,82,84,82,82,80,64,66,78
+Andreas Pereira,22,Brazil,Manchester United,1400000,1,15,4,1,0,2013,5'10,157lbs,78,78,74,78,78,73,62,75,68,70,78
+M. De Sciglio,25,Italy,Juventus,1050000,2,2,17,1,0,2017,6'0,172lbs,78,75,79,79,77,67,77,87,68,49,78
+R. Jimonez,27,Mexico,Wolverhampton Wanderers,1200000,3,9,23,1,0,2004,6'2,179lbs,69,69,76,73,49,79,68,76,78,90,78
+S. Arias,26,Colombia,Atletico Madrid,1050000,2,4,17,1,2,2018,5'10,159lbs,74,84,86,78,77,56,82,90,69,56,78
+V. Moses,27,Nigeria,Chelsea,1100000,2,15,24,1,2,2012,5'10,170lbs,76,79,77,76,82,74,66,85,69,75,78
+C. Bravo,35,Chile,Manchester City,240000,3,1,5,1,2,2016,6'0,176lbs,12,58,54,63,62,22,81,41,69,23,78
+Sergio,31,Spain,RC Celta,650000,2,1,5,1,2,2009,5'10,165lbs,21,44,43,50,48,24,64,33,62,23,78
+E. Choupo-Moting,29,Cameroon,Paris Saint-Germain,900000,2,11,26,1,2,2018,6'3,201lbs,65,76,78,76,66,77,67,76,76,68,77
+D. Welbeck,27,England,Arsenal,950000,3,21,14,1,2,2014,6'1,161lbs,69,76,83,76,62,78,80,74,75,70,77
+L. Baines,33,England,Everton,340000,3,3,7,0,2,2007,5'7,154lbs,84,66,59,69,83,84,67,64,55,90,77
+M. Elneny,25,Egypt,Arsenal,900000,1,17,20,1,0,2016,5'11,163lbs,66,58,60,65,62,76,69,92,68,62,77
+N. M√ºller,30,Germany,Eintracht Frankfurt,850000,2,27,22,1,0,2018,5'8,146lbs,75,84,78,85,83,71,78,73,57,73,77
+T. Chandler,28,United States,Eintracht Frankfurt,700000,2,22,17,1,2,2014,6'0,181lbs,77,74,79,54,52,76,69,79,82,50,77
+J. Sancho,18,England,Borussia Dortmund,1450000,1,7,22,1,0,2017,5'11,168lbs,68,88,86,90,87,64,49,66,52,57,77
+Munir,22,Spain,FC Barcelona,1250000,2,19,26,0,0,2015,5'9,152lbs,65,78,80,78,78,76,63,69,63,66,77
+J. McCarthy,27,Republic of Ireland,Everton,750000,2,16,2,1,2,2013,5'11,159lbs,68,60,58,64,70,67,65,69,71,60,77
+M. Sissoko,28,France,Tottenham Hotspur,900000,2,17,4,1,2,2016,6'2,201lbs,75,79,81,67,58,85,78,87,88,60,77
+M. Hasebe,34,Japan,Eintracht Frankfurt,270000,2,20,1,1,0,2014,5'11,159lbs,74,53,55,69,72,54,74,70,68,61,77
+T. Vermaelen,32,Belgium,FC Barcelona,500000,3,3,1,0,2,2014,6'0,176lbs,63,67,64,61,56,78,90,52,79,62,77
+M. Schmelzer,30,Germany,Borussia Dortmund,650000,2,29,7,0,2,2008,5'11,163lbs,73,74,78,65,63,74,75,82,75,46,77
+L. Spinazzola,25,Italy,Juventus,1100000,2,37,12,1,0,2010,6'1,165lbs,76,77,83,74,61,68,76,89,72,59,77
+D. Origi,23,Belgium,Liverpool,1200000,2,27,26,1,2,2014,6'1,165lbs,69,76,79,72,64,79,73,65,76,65,77
+O. Yokullu,24,Turkey,RC Celta,1050000,1,5,10,1,0,2018,6'3,190lbs,67,72,74,62,62,79,70,87,83,60,77
+P. Jagielka,35,England,Everton,210000,2,6,1,1,2,2007,5'11,192lbs,55,40,51,45,61,69,81,50,77,55,77
+R. Loftus-Cheek,22,England,Chelsea,1300000,1,12,4,1,2,2013,6'3,194lbs,62,68,74,73,67,64,59,75,80,45,77
+M. Wolf,23,Germany,Borussia Dortmund,1200000,2,27,22,1,0,2018,6'2,181lbs,75,83,84,68,67,70,53,86,68,52,77
+S. Boufal,24,Morocco,RC Celta,1150000,2,19,12,1,0,2004,5'9,148lbs,69,84,79,89,84,71,34,67,40,69,77
+T. Kehrer,21,Germany,Paris Saint-Germain,1100000,1,4,17,0,0,2018,6'1,168lbs,56,74,76,69,65,65,78,74,70,36,77
+D. da Costa,24,Germany,Eintracht Frankfurt,900000,1,24,22,1,2,2017,6'2,194lbs,78,77,84,68,61,65,81,79,80,40,77
+F. Kostiƒá,25,Serbia,Eintracht Frankfurt,1050000,2,10,12,0,2,2005,6'0,181lbs,79,89,84,77,72,77,66,74,74,64,77
+H. Winks,22,England,Tottenham Hotspur,1300000,1,17,4,1,2,2014,5'9,163lbs,65,75,70,73,78,63,51,78,63,51,77
+M. Fabin,28,Mexico,Eintracht Frankfurt,900000,2,8,0,1,2,2016,5'7,143lbs,74,69,66,86,86,81,67,71,64,75,77
+Vinvicius Junior,17,Brazil,Real Madrid,1750000,1,28,14,1,0,2018,5'9,161lbs,65,92,94,90,82,74,74,79,59,65,77
+M. Vorm,34,Netherlands,Tottenham Hotspur,360000,2,13,5,1,2,2014,6'0,185lbs,13,53,54,63,53,23,72,36,65,41,77
+R. Bentancur,21,Uruguay,Juventus,1550000,1,6,19,1,0,2017,6'2,159lbs,58,67,73,68,68,63,74,83,67,50,77
+W. Boly,27,France,Wolverhampton Wanderers,900000,1,15,8,1,2,2018,6'5,214lbs,50,57,69,55,45,52,62,58,93,56,77
+Alberto Moreno,25,Spain,Liverpool,900000,2,18,7,0,2,2014,5'7,143lbs,78,85,87,84,87,80,86,81,61,54,77
+M. Holgate,21,England,Everton,1000000,1,2,1,1,0,2015,6'0,165lbs,61,68,71,62,57,51,69,70,72,40,76
+N. Radoja,25,Serbia,RC Celta,1000000,1,6,4,1,2,2014,6'1,170lbs,44,52,38,57,46,63,62,64,73,42,76
+David Junct,24,Spain,RC Celta,850000,1,17,7,0,2,2018,5'9,148lbs,78,79,77,77,79,61,75,86,76,55,76
+Bernat,25,Spain,Paris Saint-Germain,900000,2,14,7,0,2,2018,5'7,148lbs,79,79,78,86,88,62,73,77,55,53,76
+Jesec,25,Spain,Paris Saint-Germain,950000,2,22,12,1,2,2016,5'10,159lbs,72,85,79,85,74,73,71,61,60,68,76
+S. Rode,27,Germany,Borussia Dortmund,750000,2,18,2,1,2,2016,5'10,165lbs,66,69,64,70,74,75,76,68,74,51,76
+Francisco Geraldes,23,Portugal,Eintracht Frankfurt,1100000,1,18,0,1,2,2009,5'7,146lbs,68,78,75,86,76,64,57,73,44,60,76
+W. Caballero,36,Argentina,Chelsea,100000,2,13,5,1,2,2017,6'1,179lbs,12,43,46,39,55,23,70,37,69,16,76
+E. Mangala,27,France,Manchester City,750000,2,15,1,0,2,2014,6'2,185lbs,53,59,67,62,60,67,86,64,87,48,76
+M. Darmian,28,Italy,Manchester United,600000,2,36,7,1,0,2015,6'0,154lbs,69,73,73,77,76,69,68,75,64,45,76
+Llorente,33,Spain,Tottenham Hotspur,470000,3,18,26,1,2,2017,6'4,203lbs,44,29,32,33,30,79,55,44,86,70,76
+L. Antonelli,31,Italy,Empoli,500000,2,13,7,0,0,2018,6'0,174lbs,76,70,74,70,65,76,75,72,74,51,76
+C. Salcedo,24,Mexico,Eintracht Frankfurt,850000,1,13,18,1,2,2018,6'1,183lbs,28,65,68,62,59,42,72,69,77,36,76
+Rubecn Blanco,22,Spain,RC Celta,800000,1,13,5,1,0,2012,6'2,154lbs,18,54,52,52,57,25,62,44,35,22,76
+Rafinha,32,Brazil,FC Bayern Munchen,430000,2,13,17,1,2,2011,5'8,150lbs,78,76,68,79,79,58,53,71,53,63,76
+G. Cabral,32,Argentina,RC Celta,440000,2,22,1,1,2,2014,6'0,179lbs,35,38,36,59,63,50,81,73,78,47,76
+J. De Guzmeon,30,Netherlands,Eintracht Frankfurt,700000,2,6,19,1,2,2017,5'9,163lbs,79,75,69,79,85,84,78,77,64,69,76
+J. Campbell,26,Costa Rica,Frosinone,900000,2,29,11,0,2,2018,5'10,159lbs,75,85,83,84,76,82,78,66,73,75,76
+J. Willems,24,Netherlands,Eintracht Frankfurt,800000,2,15,7,0,4,2017,5'10,181lbs,86,79,76,73,83,78,77,75,75,46,76
+Camarasa,24,Spain,Cardiff City,1050000,1,21,22,1,0,2010,6'0,168lbs,60,65,55,66,69,76,72,73,74,56,76
+R. Holding,22,England,Arsenal,950000,1,16,1,1,0,2016,6'2,165lbs,52,58,61,58,67,48,75,68,76,38,76
+C. Nkunku,20,France,Paris Saint-Germain,1150000,1,24,4,1,0,2015,5'10,159lbs,69,76,75,78,79,79,59,71,63,65,76
+M. Zajc,24,Slovenia,Empoli,950000,1,14,0,1,2,2017,5'10,168lbs,69,68,71,74,75,74,65,68,55,67,75
+Jozabed,27,Spain,RC Celta,750000,1,21,10,1,0,2017,5'11,148lbs,61,67,61,71,64,71,65,67,66,54,75
+N. Ara√∫jo,26,Mexico,RC Celta,700000,1,2,8,1,4,2018,6'2,192lbs,32,69,72,50,63,57,66,72,85,54,75
+Ivan Cavaleiro,24,Portugal,Wolverhampton Wanderers,850000,1,7,14,1,4,2016,5'9,176lbs,72,86,87,77,75,78,46,64,75,72,75
+Heclder Costa,24,Portugal,Wolverhampton Wanderers,900000,1,10,24,0,2,2017,5'10,170lbs,70,89,86,83,79,73,36,73,61,69,75
+Emerson,23,Italy,Chelsea,700000,2,33,7,0,0,2018,5'9,170lbs,78,77,77,75,72,80,67,74,52,55,75
+M. Silvestre,33,Italy,Empoli,270000,2,26,18,1,4,2018,6'1,185lbs,38,48,52,60,58,70,88,54,77,52,75
+F. Rennnow,25,Denmark,Eintracht Frankfurt,650000,1,22,5,1,0,2018,6'3,170lbs,14,48,45,34,40,21,63,32,67,17,75
+G. Nkoudou,23,France,Tottenham Hotspur,900000,1,14,12,1,0,2016,5'9,161lbs,74,89,88,86,89,67,56,64,60,61,75
+M. Jensen,22,Denmark,RC Celta,900000,1,18,4,1,0,2018,5'8,150lbs,63,74,74,87,79,71,72,87,63,69,75
+C. Ciano,28,Italy,Frosinone,650000,1,28,21,0,2,2017,5'9,161lbs,72,87,75,82,78,70,55,68,62,70,75
+Renato Sanches,20,Portugal,FC Bayern Munchen,1000000,3,8,4,1,2,2016,5'9,154lbs,60,79,77,76,90,85,79,86,76,68,75
+T. Davies,20,England,Everton,1000000,1,26,4,1,0,2015,6'1,154lbs,66,69,66,74,72,70,56,74,68,49,75
+F. Caputo,30,Italy,Empoli,650000,1,11,13,1,0,2017,5'11,163lbs,50,85,88,86,77,73,92,74,74,77,75
+Gonebalo Pacincia,23,Portugal,Eintracht Frankfurt,950000,1,39,26,1,2,2018,6'0,183lbs,29,62,65,70,74,77,66,75,78,80,75
+S. Bamba,33,Ivory Coast,Cardiff City,270000,1,22,8,1,2,2016,6'3,190lbs,27,53,55,32,32,51,65,52,89,19,75
+D. Zagadou,19,France,Borussia Dortmund,900000,1,2,1,0,4,2017,6'5,198lbs,46,52,69,47,34,56,64,61,87,30,75
+H. Arter,28,Republic of Ireland,Cardiff City,650000,1,22,4,0,2,2004,5'9,154lbs,62,65,58,71,75,76,68,71,69,68,75
+F. Roncaglia,31,Argentina,RC Celta,450000,2,24,1,1,2,2016,5'10,168lbs,68,61,67,65,69,80,80,65,72,35,75
+M. Gaƒainoviƒa,23,Serbia,Eintracht Frankfurt,900000,1,11,4,1,0,2015,5'9,152lbs,69,78,78,90,79,65,64,77,53,62,75
+Brais Mendez,21,Spain,RC Celta,1050000,1,23,22,0,0,2015,6'2,172lbs,64,71,71,70,52,71,65,70,70,62,75
+J. Alonso,25,Paraguay,RC Celta,750000,1,13,7,0,2,2006,6'0,181lbs,68,64,74,66,62,58,73,76,85,41,75
+Adama,22,Spain,Wolverhampton Wanderers,1050000,1,37,24,1,4,2018,5'10,168lbs,72,97,96,81,83,74,73,75,83,47,75
+M. Doherty,26,Republic of Ireland,Wolverhampton Wanderers,700000,1,6,25,1,2,2010,6'0,196lbs,71,74,78,69,68,72,82,89,73,48,75
+O. Niasse,28,Senegal,Everton,700000,1,19,26,1,0,2016,6'0,181lbs,56,78,72,68,67,76,71,74,72,67,75
+Gelson Fernandes,31,Switzerland,Eintracht Frankfurt,450000,2,5,9,1,0,2017,5'10,154lbs,62,66,60,66,67,67,70,90,75,50,75
+V. Janssen,24,Netherlands,Tottenham Hotspur,850000,2,9,26,0,2,2016,6'0,194lbs,35,60,62,59,66,83,73,57,77,81,75
+Lucas Torres,23,Spain,Eintracht Frankfurt,700000,1,16,2,1,0,2018,6'3,183lbs,49,65,55,65,39,53,43,82,81,57,74
+M. Pasqual,36,Italy,Empoli,65000,2,23,7,0,2,2016,5'10,157lbs,86,67,69,76,75,72,77,68,66,50,74
+J. Hoilett,28,Canada,Cardiff City,550000,2,10,12,1,2,2016,5'8,154lbs,71,88,87,85,83,76,71,58,63,68,74
+E. Goldaniga,24,Italy,Frosinone,600000,1,6,18,1,2,2009,6'2,181lbs,27,43,55,42,35,55,79,56,78,34,74
+L. Crisetig,25,Italy,Frosinone,700000,1,88,4,0,2,2007,6'0,176lbs,62,48,54,67,68,70,72,76,76,59,74
+D. Calvert-Lewin,21,England,Everton,900000,1,29,26,1,0,2016,6'2,157lbs,63,78,86,73,64,76,78,75,73,54,74
+G. Cunningham,27,Republic of Ireland,Cardiff City,500000,1,18,7,0,2,2018,6'0,154lbs,73,75,77,70,69,60,73,79,72,44,74
+C. Coady,25,England,Wolverhampton Wanderers,600000,1,16,1,1,2,2015,6'1,176lbs,59,45,46,48,52,69,73,74,75,60,74
+E. Mor,20,Turkey,RC Celta,850000,1,7,14,0,0,2017,5'7,141lbs,64,88,81,93,93,67,65,64,40,49,74
+J. Toljan,23,Germany,Borussia Dortmund,600000,2,15,17,1,0,2017,6'0,163lbs,76,89,92,74,70,49,84,77,66,39,74
+B. Ecuador Manga,29,Gabon,Cardiff City,440000,1,5,17,1,2,2014,6'1,168lbs,56,54,58,31,35,43,60,52,81,46,74
+P. Gazzaniga,26,Argentina,Tottenham Hotspur,500000,1,22,5,1,0,2017,6'5,198lbs,21,63,65,64,49,49,66,45,67,41,74
+M. Stendera,22,Germany,Eintracht Frankfurt,750000,2,21,4,1,2,2013,5'8,159lbs,67,67,52,78,86,73,52,68,63,60,74
+S. Morrison,27,England,Cardiff City,550000,1,4,18,1,2,2014,6'4,185lbs,30,44,46,54,45,52,75,59,84,47,74
+L. Markoviƒá,24,Serbia,Liverpool,700000,2,50,22,1,0,2014,5'9,143lbs,69,82,85,89,75,65,78,49,49,70,74
+R. Savos,28,Morocco,Wolverhampton Wanderers,550000,1,27,4,0,0,2016,6'3,185lbs,53,62,64,65,65,64,69,74,71,47,74
+J. Larsen,19,Denmark,Borussia Dortmund,950000,1,34,12,1,2,2016,6'0,165lbs,69,81,85,76,73,77,67,72,73,44,74
+J. Ralls,24,England,Cardiff City,750000,1,8,19,0,2,2011,5'10,154lbs,72,66,61,71,68,72,49,77,58,73,74
+F. Valverde,19,Uruguay,Real Madrid,850000,1,5,4,1,2,2016,6'0,172lbs,49,69,68,51,64,77,49,68,56,42,74
+S. Falette,26,Guinea,Eintracht Frankfurt,600000,1,3,1,0,4,2017,6'0,201lbs,39,65,72,44,48,60,78,66,91,60,74
+Fran Beltren,19,Spain,RC Celta,700000,1,8,2,1,2,2018,5'7,141lbs,65,73,72,80,79,61,59,69,64,49,74
+L. Grant,35,England,Manchester United,130000,1,13,5,1,2,2018,6'4,183lbs,19,52,46,56,56,24,73,39,71,20,74
+F. Bardi,26,Italy,Frosinone,450000,1,22,5,1,0,2018,6'2,176lbs,18,51,46,48,33,23,75,29,54,21,74
+A. Acquah,26,Ghana,Empoli,459999,1,18,9,1,0,2018,5'10,154lbs,64,78,76,78,79,72,79,79,78,60,73
+Luco Bonatini,24,Brazil,Wolverhampton Wanderers,550000,1,33,26,1,2,2018,6'0,183lbs,65,68,69,67,64,77,70,72,74,72,73
+M. Russ,32,Germany,Eintracht Frankfurt,229999,2,23,1,1,2,2013,6'3,203lbs,30,32,32,32,42,67,53,39,83,50,73
+D. Ciofani,32,Italy,Frosinone,320000,2,9,26,1,0,2013,6'3,181lbs,26,55,69,34,39,76,89,56,83,65,73
+F. Dionisi,31,Italy,Frosinone,360000,2,18,26,1,2,2014,5'10,150lbs,42,79,85,66,68,75,74,72,63,70,73
+M. Stekelenburg,35,Netherlands,Everton,95000,2,22,5,1,0,2016,6'6,203lbs,18,30,36,30,27,13,55,30,77,23,73
+A. Smithies,28,England,Cardiff City,330000,1,12,5,1,0,2018,6'2,194lbs,14,59,59,33,44,46,82,39,66,21,73
+P. Foden,18,England,Manchester City,800000,1,47,0,0,0,2016,5'7,130lbs,64,78,71,86,86,70,50,70,45,44,73
+R. Kruniƒá,24,Bosnia Herzegovina,Empoli,550000,1,33,19,1,2,2015,6'0,163lbs,65,71,69,74,66,72,68,73,68,64,73
+N. Etheridge,28,Philippines,Cardiff City,330000,1,1,5,1,4,2017,6'3,196lbs,11,51,53,54,58,24,45,34,76,43,73
+Sergi Samper,23,Spain,FC Barcelona,480000,1,16,2,1,0,2016,6'0,161lbs,55,55,33,58,70,55,58,65,66,52,73
+R. Bennett,28,England,Wolverhampton Wanderers,320000,1,5,18,1,2,2017,6'2,172lbs,23,36,39,30,34,43,73,63,77,28,73
+B. Reid,25,England,Cardiff City,550000,1,14,26,1,0,2018,5'7,150lbs,67,84,78,87,86,67,72,83,60,70,73
+A. Gunnarsson,29,Iceland,Cardiff City,310000,1,17,19,1,2,2011,5'10,190lbs,64,56,57,73,72,70,73,71,72,52,73
+A. Lookman,20,England,Everton,700000,1,31,12,1,0,2017,5'9,172lbs,65,86,80,88,80,72,65,63,51,65,73
+J. Kenny,21,England,Everton,370000,1,43,17,1,2,2014,5'9,148lbs,69,73,72,68,71,50,72,71,63,53,72
+G. Di Lorenzo,24,Italy,Empoli,340000,1,2,17,1,4,2017,6'0,181lbs,74,69,69,71,65,68,71,72,73,45,72
+J. Ruddy,31,England,Wolverhampton Wanderers,190000,2,21,5,1,4,2017,6'4,214lbs,14,38,43,23,22,24,68,36,71,18,72
+Lucas Piazon,24,Brazil,Chelsea,420000,1,34,24,1,0,2012,6'0,161lbs,71,70,69,72,69,70,39,66,55,73,72
+D. Maietta,35,Italy,Empoli,72500,1,22,8,1,2,2018,6'0,165lbs,28,30,33,33,52,21,70,50,77,15,72
+E. Martinez,25,Argentina,Arsenal,300000,1,26,5,1,2,2010,6'4,187lbs,22,59,57,49,49,18,60,14,70,42,72
+M. Kean,18,Italy,Juventus,650000,1,18,26,1,0,2016,6'0,174lbs,42,75,79,75,69,71,68,69,73,65,72
+C. Molinaro,34,Italy,Frosinone,87500,2,3,7,0,2,2018,6'0,181lbs,74,66,69,65,68,69,74,65,72,63,72
+S. Perica,22,Croatia,Frosinone,420000,1,11,26,1,0,2016,6'4,176lbs,44,68,67,58,44,74,72,64,76,62,72
+Diogo Dalot,19,Portugal,Manchester United,470000,1,20,17,1,2,2018,6'0,157lbs,75,73,73,69,63,76,78,79,71,43,72
+B. Hrgota,25,Sweden,Eintracht Frankfurt,400000,1,34,26,0,0,2016,6'1,165lbs,56,76,67,71,64,75,68,66,64,62,72
+E. Hallfre√∞sson,34,Iceland,Frosinone,150000,2,20,9,0,2,2018,6'1,190lbs,68,62,54,61,69,80,60,54,77,69,72
+Alexis,20,Spain,FC Barcelona,600000,1,21,4,0,2,2018,5'11,161lbs,66,78,76,75,75,66,52,66,63,73,72
+C. Pinsoglio,28,Italy,Juventus,220000,1,21,5,0,0,2014,6'4,187lbs,13,43,41,36,40,18,71,34,60,22,72
+J. Foyth,20,Argentina,Tottenham Hotspur,550000,1,6,1,1,0,2017,6'2,152lbs,41,71,71,72,72,56,72,65,71,47,72
+J. Bennett,28,England,Cardiff City,250000,1,3,7,0,0,2016,5'10,163lbs,70,74,64,72,69,65,71,69,65,45,72
+S. Uzban,24,Turkey,Empoli,409999,1,42,4,1,0,2009,6'0,143lbs,69,74,71,76,71,71,60,66,52,67,72
+K. Zohore,24,Denmark,Cardiff City,420000,1,10,26,0,2,2016,6'4,212lbs,38,54,74,51,33,79,34,69,87,71,72
+R. Green,38,England,Chelsea,21000,2,31,5,1,2,2018,6'2,203lbs,19,46,32,47,40,22,68,26,59,21,72
+L. Ariaudo,29,Italy,Frosinone,240000,1,15,1,0,0,2016,6'1,174lbs,35,53,53,57,63,47,80,65,74,30,72
+Y. Chibsah,25,Ghana,Frosinone,290000,1,66,19,1,2,2018,5'10,172lbs,59,76,67,81,83,70,65,89,69,52,71
+C. Paterson,23,Scotland,Cardiff City,320000,1,2,17,1,2,2017,6'2,168lbs,70,72,79,66,59,72,93,91,83,46,71
+N. Brighenti,28,Italy,Frosinone,190000,1,23,1,1,2,2016,5'10,165lbs,49,72,67,71,70,47,82,66,73,48,71
+M. Capuano,26,Italy,Frosinone,240000,1,25,8,0,2,2018,6'1,176lbs,45,65,67,66,64,59,77,74,85,41,71
+F. Wiedwald,28,Germany,Eintracht Frankfurt,170000,2,29,5,1,2,2018,6'3,181lbs,9,38,41,43,45,23,68,44,78,22,71
+E. N'Dicka,18,France,Eintracht Frankfurt,320000,1,2,8,0,2,2018,6'4,176lbs,45,69,68,53,51,64,72,65,79,33,71
+L. Capezzi,23,Italy,Empoli,340000,1,28,4,1,2,2001,5'10,159lbs,63,50,52,69,75,66,62,69,54,66,71
+B. Salamon,27,Poland,Frosinone,220000,1,27,1,1,0,2006,6'5,196lbs,38,41,53,50,32,71,82,62,76,41,71
+N. Mendez-Laing,26,England,Cardiff City,280000,1,19,24,1,4,2017,5'11,165lbs,66,85,85,72,70,67,62,74,71,48,71
+Alejandro Rodriguez,26,Spain,Empoli,260000,1,9,26,1,0,2009,6'0,176lbs,42,77,78,80,75,69,84,73,68,65,71
+S. McTominay,21,Scotland,Manchester United,380000,1,17,4,1,0,2013,6'4,194lbs,66,62,65,61,51,71,66,71,78,59,71
+M. Bvochel,27,Liechtenstein,Empoli,240000,1,40,4,0,2,2013,5'9,157lbs,62,78,69,79,82,67,69,77,67,56,71
+I. Bennacer,20,Algeria,Empoli,400000,1,10,4,0,0,2017,5'8,141lbs,67,69,71,72,79,69,72,74,45,64,71
+M. Guendouzi,19,France,Arsenal,400000,1,29,2,1,0,2018,6'1,150lbs,67,66,60,64,65,69,66,69,63,49,71
+I. Provedel,24,Italy,Empoli,240000,1,1,5,1,0,2017,6'4,185lbs,21,44,40,38,44,17,56,28,56,22,71
+O. Zinchenko,21,Ukraine,Manchester City,330000,1,35,7,0,0,2016,5'9,141lbs,79,73,64,77,79,76,66,69,52,59,71
+L. Krajnc,23,Slovenia,Frosinone,260000,1,15,1,0,2,2018,6'2,190lbs,58,63,65,58,64,44,77,65,84,44,71
+P. Terracciano,28,Italy,Empoli,190000,1,21,5,1,0,2017,6'4,172lbs,13,40,42,41,45,17,55,33,60,22,71
+A. Maitland-Niles,20,England,Arsenal,450000,1,15,4,1,0,2014,5'10,157lbs,64,82,85,76,70,65,55,69,66,54,71
+L. Lollo,27,Italy,Empoli,240000,1,17,4,1,2,2018,5'11,165lbs,69,78,79,74,76,63,78,84,76,59,71
+J. Murphy,23,England,Cardiff City,250000,1,11,12,1,0,2018,5'8,148lbs,64,83,86,78,77,74,46,62,50,58,70
+D. Solanke,20,England,Liverpool,390000,1,29,26,1,0,2017,6'2,176lbs,54,67,70,69,67,73,67,65,72,71,70
+F. Veseli,25,Albania,Empoli,190000,1,5,1,1,2,2016,6'0,176lbs,62,69,76,63,69,48,72,62,70,45,70
+F. Zampano,24,Italy,Frosinone,190000,1,17,22,1,2,2010,5'10,163lbs,72,78,76,77,78,56,72,82,65,30,70
+M. Gori,25,Italy,Frosinone,210000,1,5,4,0,2,2012,5'10,168lbs,47,68,54,77,74,62,48,78,61,41,70
+R. Maiello,26,Italy,Frosinone,210000,1,8,9,1,2,2017,5'10,161lbs,53,76,69,79,81,64,77,69,63,60,70
+K. Dowell,20,England,Everton,340000,1,28,0,0,0,2014,6'1,176lbs,64,63,64,69,71,68,48,52,56,64,70
+C. Hudson-Odoi,17,England,Chelsea,350000,1,20,14,1,0,2017,5'10,165lbs,62,86,84,84,71,60,54,57,69,55,70
+L. Tomlin,29,England,Cardiff City,170000,1,25,0,1,4,2017,5'11,163lbs,60,62,61,72,74,76,58,54,66,70,70
+T. Tawatha,26,Israel,Eintracht Frankfurt,150000,1,33,7,0,2,2016,5'8,154lbs,73,78,78,76,77,53,70,66,66,33,70
+L. Mchedlidze,28,Georgia,Empoli,180000,1,7,26,0,4,2008,6'4,192lbs,42,55,68,58,34,72,56,52,84,56,70
+M. Diaby,18,France,Paris Saint-Germain,370000,1,27,24,0,0,2018,5'7,143lbs,66,87,87,84,86,71,62,57,39,42,70
+David Costas,23,Spain,RC Celta,200000,1,3,8,1,0,2013,6'0,159lbs,53,68,67,66,66,42,74,66,65,50,70
+A. Isak,18,Sweden,Borussia Dortmund,220000,1,14,26,1,0,2017,6'3,163lbs,51,78,76,77,60,63,67,66,59,53,69
+D. Ward,27,England,Cardiff City,110000,1,9,26,0,2,2017,5'11,159lbs,63,73,73,69,68,75,90,72,70,64,69
+Allan,21,Brazil,Eintracht Frankfurt,160000,1,28,4,0,0,2008,5'8,154lbs,61,66,62,79,78,70,68,54,48,62,69
+A. Richards,27,Wales,Cardiff City,87500,1,6,17,1,2,2016,5'9,165lbs,68,68,68,69,62,56,64,68,73,50,69
+M. Brighi,37,Italy,Empoli,32500,2,4,4,1,2,2018,5'10,170lbs,64,51,52,56,78,70,72,63,67,68,69
+L. Bittante,24,Italy,Empoli,100000,1,69,17,1,0,2015,6'0,165lbs,68,68,83,70,54,59,55,83,60,45,69
+K. Walker-Peters,21,England,Tottenham Hotspur,160000,1,16,17,1,0,2015,5'9,141lbs,69,77,72,69,81,31,74,66,59,32,69
+T. Weah,18,United States,Paris Saint-Germain,220000,1,11,12,1,0,2018,6'1,146lbs,55,83,83,75,69,70,67,59,59,60,69
+M. Wagunc,19,Senegal,FC Barcelona,160000,1,37,17,1,0,2018,5'10,154lbs,69,84,79,79,85,56,84,67,50,39,69
+L. Peltier,31,England,Cardiff City,70000,1,2,17,1,2,2015,5'10,161lbs,60,65,57,53,70,32,83,72,66,38,69
+J. Ardaiz,19,Uruguay,Frosinone,200000,1,99,26,0,4,2018,6'0,179lbs,62,82,87,67,59,73,80,54,76,63,69
+Riqui Puig,18,Spain,FC Barcelona,210000,1,28,4,1,0,2018,5'7,123lbs,60,63,66,77,84,60,56,53,43,55,69
+G. Madine,27,England,Cardiff City,110000,1,24,26,1,2,2018,6'3,165lbs,42,48,56,54,52,71,82,71,84,66,69
+C. Jenkinson,26,England,Arsenal,100000,2,25,17,1,0,2011,6'1,170lbs,71,58,73,60,66,72,63,64,69,49,69
+F. Cassata,20,Italy,Frosinone,180000,1,24,4,1,0,2009,6'0,165lbs,62,68,66,67,59,55,35,69,50,40,69
+P. Sandler,21,Netherlands,Manchester City,170000,1,34,1,1,2,2018,6'3,181lbs,32,66,67,63,57,63,69,61,72,46,69
+L. Damour,27,France,Cardiff City,110000,1,20,2,1,2,2017,5'11,165lbs,59,63,68,75,61,65,71,79,63,39,69
+Brahim Dwaz,18,Spain,Manchester City,220000,1,55,14,1,2,2016,5'7,150lbs,53,78,71,81,84,70,65,58,38,58,69
+D. Soddimo,30,Italy,Frosinone,100000,1,10,0,1,0,2013,5'11,154lbs,70,78,84,82,74,72,76,84,65,57,69
+A. Hjulsager,23,Denmark,RC Celta,160000,1,16,4,1,0,2017,5'9,161lbs,58,79,77,76,70,52,72,70,68,53,69
+S. Nsoki,19,France,Paris Saint-Germain,170000,1,34,7,0,2,2018,6'1,172lbs,64,73,75,59,54,42,67,59,79,37,68
+A. La Gumina,22,Italy,Empoli,130000,1,20,23,1,2,2018,6'0,172lbs,51,78,76,67,74,67,64,61,69,68,68
+Reguillen,21,Spain,Real Madrid,140000,1,23,7,0,2,2017,5'10,150lbs,66,74,72,52,71,54,60,72,45,42,68
+T. Browning,24,England,Everton,100000,1,35,1,1,2,2011,5'11,168lbs,52,68,72,53,55,48,67,59,74,43,68
+A. Fulignati,23,Italy,Empoli,92500,1,99,5,1,2,2018,6'2,194lbs,19,51,44,52,54,25,63,17,60,22,68
+L. Paganini,25,Italy,Frosinone,110000,1,7,22,1,0,2012,6'0,154lbs,66,70,78,76,71,64,53,73,55,55,68
+P. Sammarco,35,Italy,Frosinone,37500,1,21,4,1,0,2015,6'0,165lbs,60,62,60,70,68,68,72,63,69,55,68
+K. Mavropanos,20,Greece,Arsenal,180000,1,27,1,1,2,2018,6'4,194lbs,37,52,60,55,39,45,67,64,79,42,68
+R. Mazdaa,24,Slovakia,RC Celta,100000,1,15,7,0,2,2018,5'11,165lbs,57,59,55,70,63,55,72,65,53,63,68
+Iwin Villar,20,Spain,RC Celta,95000,1,26,5,1,0,2014,6'2,174lbs,13,32,33,38,37,21,52,30,52,23,68
+Kevin,25,Spain,RC Celta,97500,1,20,17,1,2,2011,5'8,159lbs,69,70,72,63,79,51,63,74,60,46,68
+Pleguezuelo,21,Spain,Arsenal,120000,1,53,1,1,0,2014,5'11,139lbs,53,71,70,73,69,38,75,61,65,43,68
+Sergio Gomez,17,Spain,Borussia Dortmund,180000,1,17,0,0,0,2018,5'7,150lbs,65,74,68,82,84,66,52,51,36,60,68
+J. Zimmermann,33,Germany,Eintracht Frankfurt,45000,1,37,5,0,2,2017,6'3,194lbs,16,42,50,39,35,22,65,39,69,23,68
+A. Pilkington,30,Republic of Ireland,Cardiff City,87500,1,26,26,1,2,2014,5'11,179lbs,72,63,62,68,66,74,67,58,71,65,68
+S. Mraz,21,Slovakia,Empoli,140000,1,66,26,1,2,2018,6'0,172lbs,50,68,67,65,62,68,72,65,63,72,68
+M. Connolly,30,England,Cardiff City,55000,1,16,17,1,0,2012,6'2,185lbs,61,55,57,41,47,63,73,64,76,38,67
+D. Iorfa,23,England,Wolverhampton Wanderers,82500,1,67,25,1,0,2013,6'4,172lbs,63,83,88,59,40,47,48,71,79,31,67
+J. Rasmussen,21,Denmark,Empoli,120000,1,32,1,0,0,2018,6'3,179lbs,45,63,64,63,69,40,68,64,78,30,67
+A. Gomes,17,England,Manchester United,150000,1,47,0,1,0,2016,5'3,134lbs,61,75,69,83,90,61,55,57,32,66,67
+A. Iacobucci,27,Italy,Frosinone,60000,1,91,5,1,4,2018,6'2,181lbs,15,44,43,47,43,41,66,34,55,23,67
+Oriol Busquets,19,Spain,FC Barcelona,150000,1,35,2,1,0,2017,6'1,170lbs,56,58,57,56,63,56,54,74,69,42,67
+Abel Ruiz,18,Spain,FC Barcelona,160000,1,29,26,1,2,2017,6'0,161lbs,36,69,70,67,61,64,60,68,74,64,67
+B. Galloway,22,England,Everton,85000,1,36,7,0,0,2014,6'1,163lbs,54,71,77,72,63,51,64,65,67,44,67
+R. Vloet,23,Netherlands,Frosinone,100000,1,4,0,1,0,2018,6'2,165lbs,52,66,60,58,63,72,67,74,73,70,67
+K. Hause,22,England,Wolverhampton Wanderers,110000,1,30,1,0,2,2014,6'3,205lbs,52,60,65,55,56,70,71,60,83,40,67
+B. Baningime,19,DR Congo,Everton,150000,1,34,2,1,0,2016,5'10,154lbs,51,51,53,64,70,61,62,56,58,48,67
+M. Gibbs-White,18,England,Wolverhampton Wanderers,160000,1,17,4,1,2,2017,5'10,154lbs,52,65,63,70,69,68,57,63,54,46,67
+Iban Salvador,22,Equatorial Guinea,RC Celta,110000,1,33,0,0,2,2018,5'8,159lbs,64,85,79,88,81,71,71,72,54,58,67
+Javi Sanchez,21,Spain,Real Madrid,120000,1,31,1,1,0,2016,6'2,170lbs,32,55,64,41,51,38,72,68,68,38,67
+Pedro Chirivella,21,Spain,Liverpool,97500,1,68,4,1,0,2014,5'10,146lbs,52,63,66,74,65,62,52,74,64,49,66
+Miranda,18,Spain,FC Barcelona,120000,1,27,7,0,0,2018,6'1,168lbs,59,65,69,59,60,49,65,69,53,44,66
+C. Gomes,17,France,Manchester City,110000,1,81,2,1,0,2018,5'11,154lbs,49,76,71,76,69,63,56,62,62,54,66
+A. Beghetto,23,Italy,Frosinone,87500,1,33,12,0,2,2018,5'10,165lbs,71,69,73,69,76,58,63,74,55,58,66
+Cristo Gonzalez,20,Spain,Real Madrid,120000,1,27,26,1,0,2017,5'10,163lbs,54,73,70,70,71,65,65,63,49,54,66
+W. Norris,24,England,Wolverhampton Wanderers,65000,1,31,5,0,0,2017,6'3,179lbs,11,40,49,35,51,18,54,36,60,16,66
+Ruben Vinagre,19,Portugal,Wolverhampton Wanderers,120000,1,29,15,0,0,2018,5'9,141lbs,66,87,89,79,78,62,53,74,49,57,66
+E. Apeh,21,Nigeria,RC Celta,110000,1,35,26,1,2,2018,5'11,154lbs,48,72,76,70,65,69,55,69,72,62,66
+E. Ebanks-Landell,25,England,Wolverhampton Wanderers,67500,1,44,1,1,4,2010,6'2,194lbs,51,55,60,54,55,66,71,61,78,36,66
+Viscar Pinchi,22,Spain,Atletico Madrid,110000,1,46,12,1,2,2018,5'8,137lbs,67,69,69,73,80,65,55,48,51,47,66
+D. Burniƒa,20,Germany,Borussia Dortmund,100000,1,32,2,0,0,2015,5'11,154lbs,57,69,68,75,74,56,70,67,63,55,66
+Pastrana,21,Spain,RC Celta,87500,1,34,12,0,0,2017,5'11,154lbs,64,75,70,73,62,49,56,46,48,56,65
+C. Frochtl,18,Germany,FC Bayern Munchen,100000,1,36,5,0,2,2017,6'4,157lbs,10,25,23,26,23,29,40,19,63,13,65
+T. Chong,18,Netherlands,Manchester United,110000,1,44,24,0,0,2017,6'0,154lbs,66,78,77,76,56,60,64,63,66,44,65
+K. Harris,25,England,Cardiff City,67500,1,23,12,1,4,2012,5'9,150lbs,61,86,78,86,87,53,75,67,58,40,65
+L. Amos,21,England,Tottenham Hotspur,110000,1,40,4,0,0,2015,5'10,159lbs,57,59,64,67,71,57,65,72,62,45,65
+F. Feuillassier,20,Argentina,Real Madrid,110000,1,34,14,1,2,2017,5'8,152lbs,64,68,68,67,78,72,47,62,61,50,65
+Fidalgo,21,Spain,Real Madrid,87500,1,36,4,1,0,2016,5'9,150lbs,61,65,63,68,77,54,51,64,49,49,65
+J. Untersee,24,Switzerland,Empoli,75000,1,27,22,1,2,2008,5'11,174lbs,67,68,68,68,68,55,76,68,53,57,65
+G. Zelalem,21,United States,Arsenal,87500,1,60,4,1,0,2014,5'11,154lbs,51,65,56,65,73,51,53,60,58,56,65
+E. Hamilton,19,Scotland,Manchester United,100000,1,48,4,0,2,2015,6'1,165lbs,57,60,55,62,60,70,61,66,68,51,65
+C. Gribbin,19,England,Manchester United,120000,1,42,0,0,0,2015,6'0,159lbs,62,70,68,62,66,65,54,65,60,56,65
+Chumi,19,Spain,FC Barcelona,100000,1,36,1,1,0,2014,6'1,172lbs,38,57,61,49,61,47,74,62,67,50,65
+Y. Adli,17,France,Paris Saint-Germain,110000,1,29,4,1,0,2018,6'1,172lbs,62,62,61,65,57,67,59,59,63,55,65
+Jorge Cuenca,18,Spain,FC Barcelona,85000,1,33,1,0,2,2017,6'2,168lbs,40,57,61,59,64,55,69,66,60,44,65
+E. Ampadu,17,Wales,Chelsea,110000,1,15,10,1,0,2017,6'0,159lbs,27,62,58,56,68,52,74,60,67,33,65
+R. Poole,20,Wales,Manchester United,67500,1,50,1,1,2,2015,5'11,163lbs,34,70,65,69,70,32,78,71,70,37,64
+Sergio Lopez,19,Spain,Real Madrid,87500,1,32,17,1,0,2018,5'10,146lbs,63,78,79,69,72,63,61,61,51,43,64
+A. Bernede,19,France,Paris Saint-Germain,75000,1,28,0,0,2,2018,5'10,163lbs,51,65,57,68,66,62,34,48,56,59,64
+A. Pinamonti,19,Italy,Frosinone,97500,1,89,26,1,0,2012,6'2,159lbs,40,54,53,64,64,65,65,48,66,65,64
+Guillem Jaime,19,Spain,FC Barcelona,97500,1,38,24,1,2,2018,5'10,154lbs,63,69,68,68,75,64,52,62,51,49,64
+L. Mai,18,Germany,FC Bayern Munchen,85000,1,15,1,1,2,2018,6'3,194lbs,34,54,54,43,39,48,69,64,79,41,64
+Fran Garcia,18,Spain,Real Madrid,85000,1,37,7,0,2,2018,5'7,139lbs,65,79,79,68,89,47,60,66,44,39,64
+T. Oakley-Boothe,18,England,Tottenham Hotspur,92500,1,46,4,1,0,2017,6'0,150lbs,48,63,67,53,51,44,59,65,60,52,64
+C. Dagba,19,France,Paris Saint-Germain,87500,1,31,17,1,0,2018,5'7,137lbs,65,76,78,79,87,43,62,58,49,38,64
+Diego Alende,20,Spain,RC Celta,65000,1,27,1,1,2,2016,6'0,168lbs,26,53,55,32,65,31,78,43,59,33,64
+R. Williams,19,England,Manchester United,87500,1,52,1,1,2,2016,6'0,165lbs,32,72,74,58,59,43,65,41,68,49,64
+K. Rimane,27,France,Paris Saint-Germain,45000,1,37,1,1,2,2014,5'11,174lbs,41,65,64,69,63,49,82,60,74,45,64
+B. Murphy,35,Republic of Ireland,Cardiff City,11000,1,28,5,1,2,2016,6'0,183lbs,15,34,32,47,52,21,58,32,41,24,64
+E. Smith Rowe,17,England,Arsenal,97500,1,55,14,1,0,2017,6'0,141lbs,60,78,79,73,68,69,47,61,44,64,64
+O. Skipp,17,England,Tottenham Hotspur,80000,1,52,2,1,2,2017,5'9,154lbs,52,66,65,57,61,55,61,74,61,54,64
+H. Traorva,18,Ivory Coast,Empoli,92500,1,8,0,1,2,2017,5'8,143lbs,55,66,68,79,60,59,64,63,55,50,64
+E. Oelschligel,22,Germany,Borussia Dortmund,52500,1,40,5,1,2,2018,6'4,187lbs,14,39,42,34,27,24,54,29,76,18,64
+E. Nketiah,19,England,Arsenal,97500,1,49,26,1,0,2015,5'9,154lbs,33,87,82,76,72,60,73,54,56,57,64
+Borja Garcacs,18,Spain,Atletico Madrid,95000,1,32,26,1,2,2018,5'10,157lbs,37,68,67,66,70,72,61,55,51,63,64
+Montero,19,Spain,Atletico Madrid,87500,1,35,1,0,0,2018,5'11,165lbs,42,58,63,52,66,37,69,63,57,40,64
+M. Marcjanik,23,Poland,Empoli,60000,1,29,1,1,2,2018,6'1,183lbs,21,51,61,45,51,61,76,69,75,45,64
+Manu Hernando,19,Spain,Real Madrid,70000,1,33,1,1,2,2017,5'11,170lbs,44,61,63,61,64,47,59,66,62,42,64
+Dani Molina,22,Spain,RC Celta,67500,1,30,2,0,0,2017,6'0,159lbs,49,53,58,66,67,59,59,52,33,55,64
+D. Eckert,21,Germany,RC Celta,82500,1,32,26,1,2,2017,5'11,174lbs,35,58,48,52,61,62,64,53,77,59,64
+P. Ghiglione,21,Italy,Frosinone,65000,1,2,22,1,2,2011,6'2,176lbs,63,76,78,67,59,60,41,54,65,59,63
+Joaquinn,19,Spain,Atletico Madrid,70000,1,47,12,0,2,2018,5'8,150lbs,61,72,75,53,78,55,51,63,49,48,63
+O. Batista Meier,17,Germany,FC Bayern Munchen,72500,1,41,12,1,0,2018,5'10,132lbs,51,76,73,75,73,54,36,59,42,58,63
+A. Georgen,19,France,Paris Saint-Germain,70000,1,36,17,1,0,2017,5'8,148lbs,70,75,75,76,81,56,60,55,56,48,63
+Tachi,20,Spain,Atletico Madrid,72500,1,36,1,1,2,2016,6'0,165lbs,33,60,65,35,64,41,67,55,59,30,63
+C. Bramall,22,England,Arsenal,42500,1,39,7,0,0,2017,5'10,159lbs,58,88,88,74,67,55,64,64,56,34,63
+Ezkieta,21,Spain,FC Barcelona,52500,1,31,5,1,0,2015,6'4,172lbs,16,41,49,36,45,26,57,41,64,24,63
+Dani Gomez,19,Spain,Real Madrid,80000,1,38,26,1,2,2017,5'10,154lbs,32,66,65,70,65,59,62,51,70,57,63
+J. Bohui,19,England,Manchester United,70000,1,46,26,1,0,2016,5'9,165lbs,45,75,78,71,73,59,66,62,64,64,63
+Carlos Isaac,20,Spain,Atletico Madrid,62500,1,38,17,1,0,2015,6'0,163lbs,57,64,69,46,64,26,49,69,65,34,63
+F. Evina,17,Germany,FC Bayern Munchen,72400,1,43,12,1,4,2018,5'10,161lbs,59,79,77,69,78,68,61,65,71,59,63
+Toni Moya,20,Spain,Atletico Madrid,80000,1,43,4,1,2,2017,5'11,165lbs,44,66,65,64,66,52,65,51,53,51,63
+Robert Costa,24,Spain,RC Celta,50000,1,28,1,1,2,2016,6'0,176lbs,33,44,50,30,56,49,62,43,69,43,63
+F. Hornby,18,Scotland,Everton,62500,1,45,26,1,2,2018,6'2,170lbs,35,58,54,55,62,62,63,56,69,54,62
+M. Shabani,19,Germany,FC Bayern Munchen,57499,1,16,0,1,0,2018,6'1,159lbs,53,66,62,67,63,57,48,49,56,52,62
+Eric Garcia,17,Spain,Manchester City,55000,1,50,1,1,0,2017,6'0,174lbs,35,56,56,56,57,51,66,49,62,44,62
+A. Solano,20,Colombia,Atletico Madrid,42500,1,33,17,1,0,2016,5'9,154lbs,61,67,66,64,73,49,62,63,52,40,62
+S. Cibois,20,France,Paris Saint-Germain,55000,1,50,5,1,2,2018,6'4,181lbs,11,36,30,32,54,19,59,28,65,15,62
+R. Brewster,18,England,Liverpool,70000,1,24,26,1,0,2017,5'9,165lbs,50,78,76,76,77,54,68,57,55,55,62
+L. Zidane,20,France,Real Madrid,35000,1,30,5,1,2,2016,6'0,170lbs,12,33,32,36,49,15,63,38,50,19,62
+A. Georgiou,21,Cyprus,Tottenham Hotspur,57499,1,42,12,0,0,2015,5'10,161lbs,69,69,72,66,68,45,45,61,52,45,62
+C. Humphreys-Grant,19,England,Manchester City,60000,1,77,1,1,2,2015,6'2,176lbs,48,65,66,63,63,44,76,65,71,40,62
+J. Kitolano,18,Norway,Wolverhampton Wanderers,55000,1,50,15,0,0,2018,5'9,143lbs,64,79,79,77,80,43,84,76,53,24,62
+P. Beruatto,19,Italy,Juventus,57499,1,31,7,0,0,2018,6'0,172lbs,50,63,67,54,54,57,68,54,68,43,62
+C. Jones,17,England,Liverpool,55000,1,48,4,1,0,2018,6'0,150lbs,54,64,63,73,71,60,57,53,51,50,61
+J. Willock,18,England,Arsenal,52500,1,59,4,1,0,2016,6'0,157lbs,44,68,74,70,72,58,55,63,62,47,61
+N. Phillips,21,England,Liverpool,42500,1,47,1,1,0,2017,6'2,154lbs,30,52,52,42,57,45,64,59,70,45,61
+L. Bolton,18,England,Manchester City,52500,1,74,22,1,2,2016,5'9,159lbs,62,82,78,75,69,56,61,54,61,56,61
+H. Charsley,21,Republic of Ireland,Everton,37500,1,37,12,1,0,2014,5'10,141lbs,54,56,56,61,69,53,54,50,41,56,61
+Alex Dos Santos,19,Brazil,Atletico Madrid,45000,1,37,5,1,2,2018,6'1,172lbs,13,22,21,23,48,13,58,45,52,15,61
+M. Awoudja,20,Germany,FC Bayern Munchen,37500,1,45,1,1,2,2018,6'2,190lbs,29,66,68,53,48,46,75,63,72,42,61
+Rafael Camacho,18,Portugal,Liverpool,52500,1,64,0,1,0,2018,5'9,143lbs,58,69,68,65,75,57,50,41,46,55,61
+P. Will,19,Germany,FC Bayern Munchen,52500,1,28,4,0,2,2018,6'1,170lbs,51,58,62,63,61,60,60,59,67,48,61
+Ivaki Peralta,19,Spain,FC Barcelona,45000,1,30,5,1,0,2018,6'0,172lbs,10,33,28,42,51,24,63,27,54,17,61
+Darcio Poveda,21,Spain,Atletico Madrid,42500,1,26,26,1,0,2018,6'1,165lbs,45,61,57,58,60,57,65,55,45,55,61
+Diego Pampen,18,Spain,RC Celta,45000,1,31,7,0,2,2017,5'9,157lbs,62,68,61,60,64,40,56,60,58,43,61
+A. Muric,19,Montenegro,Manchester City,45000,1,49,5,1,2,2017,6'6,179lbs,13,44,46,38,40,21,62,29,68,18,61
+L. Matarese,20,Italy,Frosinone,45000,1,19,12,1,2,2017,5'9,143lbs,58,69,67,76,86,64,47,34,42,50,61
+A. Whiteman,19,England,Tottenham Hotspur,45000,1,41,5,1,0,2015,6'1,168lbs,14,34,28,31,41,17,65,26,48,11,61
+S. Harrison,20,England,Tottenham Hotspur,45000,1,39,26,0,0,2015,6'0,150lbs,45,75,73,73,70,57,65,63,62,63,61
+K. Sterling,19,England,Tottenham Hotspur,55000,1,50,26,1,2,2017,5'11,146lbs,36,77,75,70,73,61,64,48,54,55,61
+B. Gilmour,17,Scotland,Chelsea,55000,1,60,4,1,0,2018,5'8,150lbs,56,66,56,75,82,48,60,50,32,49,61
+M. Taylor-Crossdale,18,England,Chelsea,52500,1,56,26,1,0,2016,6'1,170lbs,42,65,72,60,60,70,55,50,66,69,61
+B. Adekanye,19,Netherlands,Liverpool,45000,1,69,24,0,2,2017,5'7,137lbs,54,75,73,68,74,63,53,55,64,52,60
+D. Wanner,19,Germany,Borussia Dortmund,45000,1,41,12,0,0,2018,5'10,157lbs,64,68,67,69,67,56,59,62,52,54,60
+N. Knothe,19,Germany,Eintracht Frankfurt,40000,1,35,1,1,0,2017,6'2,179lbs,29,55,55,53,58,49,65,55,66,44,60
+D. Beyreuther,18,Germany,Eintracht Frankfurt,37500,1,26,7,0,0,2017,5'11,157lbs,58,67,65,68,68,45,59,60,48,54,60
+L. Polvani,23,Italy,Empoli,24000,1,48,1,1,2,2017,6'2,187lbs,21,36,29,34,52,28,62,55,68,13,60
+S. Lavery,19,Northern Ireland,Everton,45000,1,63,26,1,2,2017,5'9,141lbs,41,73,72,77,77,58,66,51,47,67,60
+N. Mbouhom,19,Cameroon,Eintracht Frankfurt,37500,1,32,3,0,4,2017,5'10,181lbs,36,67,69,77,78,54,59,54,53,54,60
+E. Besea,21,Ghana,Frosinone,37500,1,31,4,1,0,2017,6'0,165lbs,39,64,68,71,67,55,56,67,82,51,60
+Z. Medley,17,England,Arsenal,37500,1,47,1,1,0,2017,6'4,165lbs,34,54,49,49,57,41,70,58,63,43,60
+B. Garrvo,17,Argentina,Manchester City,40000,1,73,14,0,0,2017,5'7,139lbs,62,74,70,77,75,59,50,60,46,58,60
+Cristian Rodriguez,22,Spain,Atletico Madrid,32500,1,28,0,1,0,2016,5'11,154lbs,54,59,58,65,67,57,62,57,62,52,60
+B. Ashley-Seal,19,England,Wolverhampton Wanderers,45000,1,24,26,1,2,2017,6'2,176lbs,32,78,79,74,60,61,65,61,73,62,60
+G. McEachran,17,England,Chelsea,35000,1,55,0,0,0,2017,5'9,143lbs,55,64,60,73,74,47,48,54,36,50,59
+K. Grabara,19,Poland,Liverpool,28000,1,73,5,1,0,2017,6'3,165lbs,18,40,38,38,41,21,52,29,50,17,59
+J. Meier,18,Germany,FC Bayern Munchen,28999,1,23,7,0,0,2018,5'10,172lbs,53,65,58,62,59,38,60,63,63,33,59
+Jo√£o Virgenia,18,Portugal,Everton,26000,1,33,5,1,2,2018,6'3,176lbs,14,50,50,30,33,25,40,16,57,12,59
+Paulo Alves,20,Portugal,Wolverhampton Wanderers,26000,1,38,4,1,0,2018,5'9,159lbs,52,57,59,70,68,63,56,54,54,55,59
+M. Virtue,21,England,Liverpool,25000,1,65,2,1,0,2017,5'9,146lbs,45,70,68,77,80,63,69,56,50,56,59
+Obama,18,Spain,Atletico Madrid,32500,1,27,26,1,2,2017,5'7,154lbs,52,66,59,62,79,60,56,51,51,65,59
+S. vaetin,17,Germany,Eintracht Frankfurt,30000,1,30,2,1,0,2017,5'9,154lbs,50,65,64,73,78,57,59,54,48,53,59
+T. Matthews,17,South Africa,Borussia Dortmund,30000,1,50,0,0,0,2018,5'9,154lbs,57,78,77,87,87,39,61,53,34,45,59
+Mollejo,17,Spain,Atletico Madrid,30000,1,40,24,0,0,2018,5'9,141lbs,52,74,72,72,80,58,49,48,43,53,59
+M. Guehi,17,England,Chelsea,23000,1,53,1,1,2,2017,6'0,165lbs,33,58,60,53,58,49,65,56,61,34,58
+I. Meite,21,England,Cardiff City,21000,1,27,26,0,0,2017,6'2,159lbs,28,63,65,56,59,60,59,38,64,62,58
+Pedro Gonzalves,20,Portugal,Wolverhampton Wanderers,28000,1,26,4,1,0,2017,5'8,154lbs,48,65,68,67,75,71,43,52,42,44,58
+A. Bakir,17,Germany,Borussia Dortmund,25000,1,42,22,1,2,2018,5'10,152lbs,61,67,65,69,69,51,62,49,51,49,58
+N. Ennis,19,England,Wolverhampton Wanderers,28000,1,45,26,1,2,2016,5'11,176lbs,29,78,79,75,76,60,56,55,64,56,58
+J. Osei-Tutu,19,England,Arsenal,24000,1,52,17,1,0,2015,5'10,159lbs,49,74,78,55,65,33,62,65,63,42,58
+R. Kehr,18,Germany,Borussia Dortmund,22000,1,43,26,0,0,2018,6'2,176lbs,39,69,68,62,54,53,63,55,66,58,57
+A. Errico,19,Italy,Frosinone,20000,1,14,3,1,0,2018,5'10,154lbs,52,66,54,64,70,53,43,32,41,48,57
+J. McKay,21,Scotland,Cardiff City,16000,1,40,26,0,0,2018,6'3,187lbs,26,51,52,52,48,59,57,62,74,56,57
+T. Dele-Bashiru,18,England,Manchester City,21000,1,72,4,1,2,2017,5'10,150lbs,39,70,71,73,71,53,66,59,61,55,57
+O. Buur Rasmussen,20,Denmark,Wolverhampton Wanderers,20000,1,40,25,1,0,2017,5'9,154lbs,47,77,74,71,75,36,64,59,42,36,57
+N. Pejoviƒa,19,Serbia,Empoli,18000,1,56,1,1,2,2017,6'1,174lbs,22,55,55,46,59,38,71,63,57,42,56
+M. Bulka,18,Poland,Chelsea,15000,1,59,5,1,0,2016,6'6,198lbs,12,28,25,42,28,22,43,20,70,18,56
+R. Giles,18,England,Wolverhampton Wanderers,17000,1,23,15,0,0,2018,5'10,159lbs,60,87,83,77,75,57,42,58,45,49,56
+A. Jakupoviƒa,20,Austria,Empoli,20000,1,19,26,0,0,2017,6'1,154lbs,30,42,40,49,54,55,69,55,65,62,56
+R. Hoffmann,19,Germany,FC Bayern Munchen,16000,1,39,5,1,2,2017,6'4,185lbs,13,23,27,31,24,22,42,14,52,10,56
+M. Said,18,Sweden,Empoli,20000,1,55,26,0,0,2018,5'10,152lbs,28,68,68,61,73,54,66,52,46,58,55
+E. Watt,18,Scotland,Wolverhampton Wanderers,15000,1,25,4,1,2,2017,5'9,159lbs,43,68,67,67,73,55,60,58,49,47,54
+A. Sunndergaard,17,Denmark,Wolverhampton Wanderers,12000,1,62,5,1,0,2018,6'2,168lbs,11,21,20,38,32,15,60,24,64,13,54
+D. Grimshaw,20,England,Manchester City,12000,1,32,5,1,0,2016,6'1,170lbs,19,44,47,38,41,21,57,42,42,22,54
+J. Veale,21,Wales,Cardiff City,12000,1,43,4,1,0,2015,5'8,154lbs,46,66,61,67,75,63,66,52,50,48,54
+C. John,18,England,Wolverhampton Wanderers,13000,1,47,1,0,2,2017,5'11,172lbs,45,72,73,66,60,42,69,60,67,32,54
+C. Coxe,19,Wales,Cardiff City,11000,1,36,17,1,2,2017,5'11,154lbs,44,68,64,56,66,32,59,53,56,27,53
+J. Waite,19,Wales,Cardiff City,13000,1,35,4,1,2,2017,5'9,134lbs,33,63,65,67,78,57,53,53,33,45,53
+C. Brown,20,England,Cardiff City,8000,1,37,1,0,2,2018,6'1,168lbs,45,63,63,61,54,56,67,52,68,37,52
+G. Meli,19,Italy,Empoli,9000,1,12,5,0,2,2016,6'2,165lbs,14,28,31,38,34,21,44,18,53,18,52
