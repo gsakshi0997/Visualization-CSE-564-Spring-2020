@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Visualization </title>
+	<script type='text/javascript' src='https://d3js.org/d3.v3.min.js'></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.7.1/d3-tip.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type='text/javascript' src="static/index.js"></script>
+	<style type="text/css"> 
+   		input[type="radio"]{margin: 0 20px 0 135px};} 
+
+
+svg {
+  font: 10px sans-serif;
+  padding: 10px;
+}
+
+.axis,
+.frame {
+  shape-rendering: crispEdges;
+}
+
+.axis line {
+  stroke: #ddd;
+}
+
+.axis path {
+  display: none;
+}
+
+.cell text {
+  font-weight: bold;
+  text-transform: capitalize;
+  fill: black;
+}
+
+.frame {
+  fill: none;
+  stroke: #aaa;
+}
+
+circle {
+  fill-opacity: .7;
+}
+
+circle.hidden {
+  fill: #ccc !important;
+}
+
+.extent {
+  fill: #000;
+  fill-opacity: .125;
+  stroke: #fff;
+}
+
+
+	</style>
+</head>
+<body style="background-image: url(static/bcd.jpg);background-repeat: no-repeat;background-attachment: fixed;background-size: cover; ">
+<center>
+	<h1 align="center">Visualization Mini Project 2</h1>
+	<h2 align="center">FIFA 2019 Player Dataset</h2>
+</center>
+	<div>
+			<div class="dropdown_cont1" style="float: left">
+				<label class="task2_text" for="task2">Task 2</label>
+
+                <select class="dropdown1" id="Task2"  onchange="selectType()">
+                    <option value="-1" selected="selected">Select Visualization</option>
+                    <option value="elbow">Elbow plot</option>
+                    <option value="org">Original Data- Scree Plot </option>
+                    <option value="rand">Random Sampling- Scree Plot</option>
+                    <option value="strat">Stratified Sampling- Scree Plot</option>
+                    <option value="top3">Top 3 attributes with highest PCA loadings</option>
+                </select>
+            </div>
+            <div class="dropdown_cont2" style="float: right">
+				<label class="task3_text" for="task3">Task 3</label>
+
+                <select class="dropdown2" id="Task3"  onchange="selectRedType()">
+                    <option value="-1" selected="selected">Select Technique</option>
+                    <option value="pca">Top two PCA Vectors</option>
+                    <option value="mds-euc">MDS- Euclidean Distance</option>
+                    <option value="mds-corr">MDS- Correlation Distance</option>
+                    <option value="scatt">Scatterplot Matrix</option>
+                </select>
+            </div>
+            <div class="radio_container1">
+                <form id="samplingType" action="" style="visibility:hidden" onchange="selectRedType()">
+                    <input class="radio" id="random" type="radio" name="sampling" value="random_sampling" checked="checked">
+                    <label class="radio_text" for="random">Random Sampling</label>
+                    <input class="radio" id="strat" type="radio" name="sampling" value="stratified_sampling">
+                    <label class="radio_text" for="strat">Stratified Sampling</label>
+                </form>
+            </div>
+    </div>
+
+    <div id="chart_container"></div>
+
+
+</body>
+</html>  
