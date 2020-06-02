@@ -1,0 +1,1592 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script type='text/javascript' src='https://d3js.org/d3.v4.min.js'></script>
+  <link rel="stylesheet" href="static/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.7.1/d3-tip.min.js"></script>
+  <script src="//d3js.org/d3-scale-chromatic.v0.3.min.js"></script>
+
+  <meta charset="utf-8">
+<link rel="shortcut icon" href="#">
+
+
+  <title>PROJECT</title>
+
+</head>
+
+
+<body>
+
+<center>
+<h1>VISUALIZATION FINAL PROJECT</h1>
+<h2>FIFA 2019 Club Analysis</h2>
+</center>
+<div>
+<ul>
+  <li><button id="#reset" onclick="reset()">RESET</button></li>
+</ul>
+
+            
+  <div class="bar" id="bar"></div>
+  <div class="bubble" id="bubble"></div>
+  <div class="scatter" id="scatter"></div>
+  <div class="parallel" id="parallel"></div>
+  <div class="stack" id="stack"></div>
+<script type="text/javascript">
+
+  button1("/bar/CONSOLIDATED");
+  button2("/scatter/CONSOLIDATED");
+  button3("/bubble/CONSOLIDATED");
+  button4("/stack/CONSOLIDATED")
+  button5("/parallel/CONSOLIDATED")
+
+function reset(){
+  d3.select("#bar").select("svg").remove();
+
+d3.select("#scatter").select("svg").remove();
+d3.select("#bubble").select("svg").remove();
+d3.select("#stack").select("svg").remove();
+d3.select("#parallel").select("svg").remove();
+
+  button1("/bar/CONSOLIDATED");
+  button2("/scatter/CONSOLIDATED");
+  button3("/bubble/CONSOLIDATED");
+  button4("/stack/CONSOLIDATED")
+  button5("/parallel/CONSOLIDATED")
+}
+function button1(url){
+  $.ajax({
+
+    type:"POST",
+    url: url,
+    dataType:'json',
+    success: function(data){
+      draw_histplot(data);
+    }
+  })
+
+}
+
+function button2(url){ 
+  console.log(url)
+$.ajax({
+
+    type:"POST",
+    url: url,
+    dataType:'json',
+    success: function(data){
+      scatterplot(data);
+    }
+  })
+}
+
+function button3(url){ 
+  console.log(url)
+$.ajax({
+
+    type:"POST",
+    url: url,
+    dataType:'json',
+    success: function(data){
+      scatter_bubble(data);
+    }
+  })
+}
+
+function button4(url){ 
+  console.log(url)
+$.ajax({
+
+    type:"POST",
+    url: url,
+    dataType:'json',
+    success: function(data){
+      pie_plot(data);
+    }
+  })
+}
+function button5(url){ 
+  console.log(url)
+$.ajax({
+
+    type:"POST",
+    url: url,
+    dataType:'json',
+    success: function(data){
+      parallel_plot(data);
+    }
+  })
+}
+
+function parallel_plot(data1)
+{
+  data=data1['datapoints']
+  console.log(data)
+  // set the dimensions and margins of the graph
+var margin = {top: 30, right: 50, bottom: 30, left: 50},
+  width = 620 - margin.left - margin.right,
+  height = 350 - margin.top - margin.bottom;
+
+// append the svg object to the body of the page
+var svg = d3.select("#parallel")
+.append("svg")
+  .attr("width", width + margin.left + margin.right)
+  .attr("height", height + margin.top + margin.bottom)
+.append("g")
+  .attr("transform",
+        "translate(" + margin.left + "," + margin.top + ")");
+
+// Parse the Data
+
+  // Color scale: give me a specie name, I return a color
+  var color = d3.scaleOrdinal(d3.schemePaired)
+    
+  // Here I set the list of dimension manually to control the order of axis:
+dimensions = ["Preferred Foot", "Strength", "International Reputation", "Crossing"]
+  // For each dimension, I build a linear scale. I store all in a y object
+  var y = {}
+  for (i in dimensions) {
+    name = dimensions[i]
+    //console.log(name)
+    y[name] = d3.scaleLinear().domain([0,100] ) // --> Same axis range for each group
+      //.domain( [d3.extent(data, function(d) {return +d[name]; })] )
+      .range([height, 0])
+  }
+var tooltip = svg.append("g").attr("class", "tooltip").style("display", "none")
+    
+tooltip.append("rect").attr("width", 30).attr("height", 20).attr("fill", "white").attr("data-html", "true")
+.style("opacity", 1);
+
+tooltip.append("text")
+  .attr("x", 15)
+  .attr("dy", "1.2em")
+  .style("text-anchor", "middle")
+  .attr("font-size", "12px")
+  .attr("font-weight", "bold");
+  // Build the X scale -> it find the best position for each Y axis
+  x=d3.scalePoint().domain(dimensions).range([0, width]);
+  color.domain(data.map(function (d){ return d.Club; }));
+
+  // Highlight the specie that is hovered
+  // var highlight = function(d){
+
+  //   selected_specie = d.club
+
+  //   // first every group turns grey
+  //   d3.selectAll(".line")
+  //     .transition().duration(200)
+  //     .style("stroke", "lightgrey")
+  //     .style("opacity", "0.2")
+  //   // Second the hovered specie takes its color
+  //   d3.selectAll("." + selected_specie)
+  //     .transition().duration(200)
+  //     .style("stroke", color(selected_specie))
+  //     .style("opacity", "1")
+  // }
+
+  // // Unhighlight
+  // var doNotHighlight = function(d){
+  //   d3.selectAll(".line")
+  //     .transition().duration(200).delay(1000)
+  //     .style("stroke", function(d){ return( color(d.club))} )
+  //     .style("opacity", "1")
+  // }
+
+  // The path function take a row of the csv as input, and return x and y coordinates of the line to draw for this raw.
+  function path(d) {
+      //console.log(d)
+      return d3.line()(dimensions.map(function(p) { 
+        //console.log([x(p), y[p](d[p])])
+        return [x(p), y[p](d[p])]; }));
+  }
+
+  // Draw the lines
+  svg.selectAll("myPath")
+    .data(data)
+    .enter()
+    .append("path")
+      .attr("class", function (d) { return "line " + d.Club } ) // 2 class for each line: 'line' and the group name
+      .attr("d",  path)
+      .style("fill", "none" )
+      .style("stroke", function(d){ return( color(d.Club))} )
+      .style("opacity", 0.5)
+      .on("mouseover", function() { tooltip.style("display", null); })
+        .on("mouseout", function() { tooltip.style("display", "none"); })
+        .on("mousemove", function(d) {
+    var xPosition = d3.mouse(this)[0] - 15;
+    var yPosition = d3.mouse(this)[1] - 25;
+    tooltip.attr("transform", "translate(" + xPosition + "," + yPosition + ")");
+    tooltip.select("text").html(function(){ return "Club Name:"+d.Club})
+  });
+      //.on("mouseover", highlight)
+      //.on("mouseleave", doNotHighlight )
+
+  // Draw the axis:
+  svg.selectAll("myAxis")
+    // For each dimension of the dataset I add a 'g' element:
+    .data(dimensions).enter()
+    .append("g")
+    .attr("class", "axis")
+    // I translate this element to its right position on the x axis
+    .attr("transform", function(d) { return "translate(" + x(d) + ")"; })
+    // And I build the axis with the call function
+    .each(function(d) { d3.select(this).call(d3.axisLeft(y[d]).ticks(5)); })
+    // Add axis title
+    .append("text")
+      .style("text-anchor", "middle")
+      .attr("y", -9)
+      .text(function(d) { return d; })
+      .style("fill", "black");
+    svg.append("text")
+        .attr("class", "chart_name")
+        .attr("text-anchor", "middle")
+        .attr("transform", "translate("+ (height + margin.top + margin.bottom-90) +","+(height - margin.bottom+50)+")")
+        .text("Parallel Coordinates Plot");
+
+
+}
+
+function draw_histplot(data) {
+    // d3.selectAll('.svgid').remove();
+    var club = data['datapoints'];
+    // club.sort(function(a, b) {
+    //     return b.B - a.B;
+    //   });
+    //club=Object.entries(club)
+    console.log(club)
+    
+      //console.log(col_nest)   
+    console.log("Inside hist plot")
+    // set the dimensions and margins of the graph
+
+
+        //set up svg using margin conventions - we'll need plenty of room on the left for labels
+        var margin = {
+            top: 15,
+            right: 25,
+            bottom: 15,
+            left: 20
+        };
+
+        var width = 300 - margin.left - margin.right,
+            height = 680 - margin.top - margin.bottom;
+
+        var svg = d3.select("#bar").append("svg")
+            .attr('class','svgid')
+            .attr("width", width + margin.left + margin.right)
+            .attr("height", height + margin.top + margin.bottom)
+            .append("g")
+            .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+        var colorScale = d3.scaleOrdinal(d3.schemePaired);
+
+        var x = d3.scaleLinear().range([0, width]).domain([0, d3.max(club, function (d) {
+                return d.B;
+            })]);
+
+        var y = d3.scaleBand().rangeRound([height, 0]).domain(club.map(function (d) {
+                return d.A;
+            })).padding(0.1);
+            //console.log("2")
+
+        colorScale.domain(club.map(function (d){ return d.A; }));
+
+        //make y axis to show bar names
+        var yAxis = d3.axisLeft(y).ticks(0);
+
+        var bars = svg.selectAll(".bar")
+            .data(club)
+            .enter()
+            .append("g")
+            console.log("3")
+      var str=""
+        //append rects
+        bars.append("rect")
+            .attr("class", "bar").style("opacity",0.5)
+            .attr("fill", function (d){ return colorScale(d.A); })
+            .attr("y", function(d) {
+                return y(d.A);
+            })
+            .attr("height", y.bandwidth())
+            .attr("x", 0)
+            .attr("width", function (d) {
+                return x(d.B);
+            })
+            .on("click",function (d) {
+
+        // d3.select("#bar").select("svg").remove();
+        //               button1("/bar");
+        str=str+"$$"+d.A;
+        console.log(str)
+        d3.select(this).style("opacity", 1.0);      
+
+      // d3.select("#bar").select("svg").remove();
+                      // button1("/bar/"+str);
+
+      d3.select("#scatter").select("svg").remove();
+
+              button2("/scatter/"+str);
+      d3.select("#bubble").select("svg").remove();
+
+              //d3.select("#bubble").remove();
+              button3("/bubble/"+str);
+      d3.select("#stack").select("svg").remove();
+
+              button4("/stack/"+str);
+      d3.select("#parallel").select("svg").remove();
+
+              button5("/parallel/"+str);
+
+
+            });
+
+        bars.append("text")
+            .attr("class", "label")
+            //y position of the label is halfway down the bar
+            .attr("y", function (d) {
+                return y(d.A) + y.bandwidth() / 2 + 4;
+            })
+            //x position is 3 pixels to the right of the bar
+            .attr("x", function (d) {
+                return 3;
+            })
+            .text(function (d) {
+                return d.A;
+            })
+            .style("fill", "black");
+
+        bars.append("text")
+            .attr("class", "label")
+            //y position of the label is halfway down the bar
+            .attr("y", function (d) {
+                return y(d.A) + y.bandwidth() / 2 + 4;
+            })
+            //x position is 3 pixels to the right of the bar
+            .attr("x", function (d) {
+                return x(d.B) +2;
+            })
+            .text(function (d) {
+                return d.B;
+            })
+            .style("fill", "black");
+            console.log("4")
+            svg.append("text")
+        .attr("class", "chart_name")
+        .attr("text-anchor", "middle")
+            .attr("transform", "translate(" + 125 + "," +660+ ")")
+        .text("Bar graphs displaying Club Names");
+}
+
+function scatterplot(dataset){
+
+
+  console.log("Inside scatt plot")
+ 
+  data=dataset['datapoints']
+    console.log(data)
+
+  // cat=dataset['categories']
+  var margin = {top: 50, right: 20, bottom: 20, left: 100},
+    width = 550 - margin.left - margin.right,
+    height = 350 - margin.top - margin.bottom;
+
+// Parse the date / time
+
+// Set the ranges
+var y = d3.scaleBand().rangeRound([0, height])
+    .padding(0.9);
+var x = d3.scaleLinear().range([0, width]);
+var colorScale = d3.scaleOrdinal(d3.schemePaired);
+
+// Define the axes
+var xAxis = d3.axisTop(x).ticks(5);
+
+var yAxis = d3.axisLeft(y).ticks(0);
+
+// Define the line+500
+
+  colorScale.domain(data.map(function (d){ return d.D; }));
+
+// Adds the svg canvas
+var svg = d3.select("#scatter")
+    .append("svg")
+        .attr("width", width + margin.left + margin.right)
+            .attr("height", height + margin.top + margin.bottom)
+            .append("g")
+            .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+// Get the data[
+var tooltip = svg.append("g").attr("class", "tooltip").style("display", "none")
+    
+tooltip.append("rect").attr("width", 30).attr("height", 20).attr("fill", "white").attr("data-html", "true")
+.style("opacity", 0.5);
+
+tooltip.append("text")
+  .attr("x", 15)
+  .attr("dy", "1.2em")
+  .style("text-anchor", "middle")
+  .attr("font-size", "12px")
+  .attr("font-weight", "bold");
+  
+
+    // Scale the range of the data
+    y.domain(data.map(function (d) {
+                return d.C;
+            }));
+    x.domain([0, d3.max(data, function(d) { return d.B; })]);
+
+    // Add the valueline path.
+    
+
+    // Add the scatterplot
+    svg.selectAll("dot")
+        .data(data)
+        .enter().append("circle").style("opacity",0.5)
+        .attr("fill", function (d){ return colorScale(d.D); })
+        .attr("r", 5)
+        .attr("cx", function(d) { return x(d.B); })
+        .attr("cy", function(d) { return y(d.C); })
+        .on("mouseover", function() { tooltip.style("display", null); })
+        .on("mouseout", function() { tooltip.style("display", "none"); })
+        .on("mousemove", function(d) {
+    var xPosition = d3.mouse(this)[0] - 15;
+    var yPosition = d3.mouse(this)[1] - 25;
+    tooltip.attr("transform", "translate(" + xPosition + "," + yPosition + ")");
+    tooltip.select("text").html(function(){ return "Club Name:"+d.D})
+  });
+    // Add the X Axis
+    svg.append("g")
+        .attr("class", "x axis")
+        //.attr("transform", "translate(0," + height-150 + ")")
+        .call(yAxis)
+        .selectAll("text")
+        // .attr("transform","rotate(+45)");
+
+    // Add the Y Axis
+    svg.append("g")
+        .attr("class", "y axis")
+        .call(xAxis)
+    svg.append("text")
+        .attr("class", "axis_label")
+        .attr("text-anchor", "middle")
+        .attr("transform", "translate("+ ((width/2)) +","+ ((width/2)-240) +")")
+        .text("Score(0-100)");
+
+    svg.append("text")
+        .attr("class", "chart_name")
+        .attr("text-anchor", "middle")
+        .attr("transform", "translate("+ (height + margin.top + margin.bottom-130) +","+(height - margin.bottom+30)+")")
+        .text("Scatter Plot showing player score across different criterias");
+
+}
+
+function pie_plot(data1){
+
+var width = 320
+    height = 320
+    margin=20
+    
+
+// The radius of the pieplot is half the width or half the height (smallest one). I subtract a bit of margin.
+// var radius = Math.min(width, height) / 2 - margin
+
+// append the svg object to the div called 'my_dataviz'
+var svg = d3.select("#stack")
+  .append("svg")
+    .attr("width", width)
+    .attr("height", height)
+  .append("g")
+    .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")");
+
+// var svg = d3.select("#stack")
+//   .append("svg")
+//   .attr("width", width + margin.left + margin.right)
+//   .attr("height", height + margin.top + margin.bottom)
+//   .append("g")
+//   .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+
+var data = data1['datapoints']
+var radius = Math.min(width, height) / 2 - margin
+
+var color = d3.scaleOrdinal(d3.schemePaired)
+var tooltip = svg.append("g").attr("class", "tooltip").style("display", "none")
+    
+tooltip.append("rect").attr("width", 30).attr("height", 20).attr("fill", "white").attr("data-html", "true");
+tooltip.append("text")
+  .attr("x", 15)
+  .attr("dy", "1.2em")
+  .style("text-anchor", "middle")
+  .attr("font-size", "12px")
+  .attr("font-weight", "bold");
+console.log(data)
+// Compute the position of each group on the pie:
+var pie = d3.pie().value(function(d) {return d.B; })
+var data_ready = pie(data)
+console.log(data_ready)
+// Build the pie chart: Basically, each part of the pie is a path that we build using the arc function.
+svg.selectAll('whatever')
+  .data(data_ready)
+  .enter()
+  .append('path').style("opacity",0.5)
+  .attr('d', d3.arc().innerRadius(0).outerRadius(radius))
+  .attr('fill', function(d){ return(color(d.data.A)) })
+  //.attr("stroke", "black")
+  //.style("stroke-width", "0.2px")
+  
+  .on("click",function (d) { 
+          d3.select(this).style("opacity", 0.8);      
+      d3.select("#bar").select("svg").remove();
+
+              button1("/bar/"+d.data.A);
+      d3.select("#scatter").select("svg").remove();
+
+              //d3.select("#bubble").remove();
+              button2("/scatter/"+d.data.A);
+      d3.select("#bubble").select("svg").remove();
+
+              button3("/bubble/"+d.data.A);
+      d3.select("#parallel").select("svg").remove();
+
+              button5("/parallel/"+d.data.A);
+
+            })
+  .on("mouseover", function() { tooltip.style("display", null); })
+        .on("mouseout", function() { tooltip.style("display", "none"); })
+        .on("mousemove", function(d) {
+    var xPosition = d3.mouse(this)[0] - 15;
+    var yPosition = d3.mouse(this)[1] - 25;
+    tooltip.attr("transform", "translate(" + xPosition + "," + yPosition + ")")
+    tooltip.select("text").html(function(){ return d.data.A+":"+d.data.B;}).style("opacity",1.0);
+  });
+
+
+
+
+svg.append("text")
+        .attr("class", "chart_name")
+        .attr("text-anchor", "middle")
+        .attr("transform", "translate("+ (width/2-155) +","+(height/2-5)+")")
+        .text("Pie chart showing Player Nationalities");
+
+}
+// Transpose the data into layers
+
+/*
+var stack = d3.stack().keys(["1", "2", "3", "4","5"])
+
+  // Pass our data to the stack to generate the layer positions
+  
+   
+dataset.map(function(rank) {
+  return data.map(function(d) {
+    return {x: d.club, y: +d[rank], z:rank};
+  });
+});
+console.log(dataset)
+var x=d3.scaleBand()
+    .rangeRound([10, width-10])
+    .padding(0.02);
+// Set x, y and colors
+
+  x.domain(dataset.map(function(d) { return d.x; }))
+
+var y = d3.scaleLinear()
+  .domain([0, d3.max(dataset, function(d) {  return d.y  })])
+  .range([height, 0]);
+
+var colors = ["b33040", "#d25c4d", "#f2b447", "#d9d574","#FFA07A "];
+
+
+// Define and draw axes
+var yAxis = d3.axisLeft(y)
+  .ticks(4)
+  .tickSize(-width, 0, 0)
+  .tickFormat( function(d) { return d } );
+
+var xAxis = d3.axisBottom(x);
+  // .tickFormat(d3.time.format("%Y"));
+
+svg.append("g")
+  .attr("class", "x axis")
+  .attr("transform", "translate(0," + height + ")");
+
+// Create groups for each series, rects for each segment 
+var groups = svg.selectAll("g.cost")
+  .data(dataset)
+  .enter().append("g")
+  .attr("class", "cost")
+  .style("fill", function(d, i) { return colors[i]; });
+
+var rect = groups.selectAll("rect")
+  .data(function(d) { return d; })
+  .enter()
+  .append("rect")
+  .attr("x", function(d) { return x(d.x); })
+  .attr("y", function(d) { return y(d.y0 + d.y); })
+  .attr("height", function(d) { return y(d.y0) - y(d.y0 + d.y); })
+  .attr("width", x.bandwidth())
+  .on("mouseover", function() { tooltip.style("display", null); })
+  .on("mouseout", function() { tooltip.style("display", "none"); })
+  .on("mousemove", function(d) {
+    var xPosition = d3.mouse(this)[0] - 15;
+    var yPosition = d3.mouse(this)[1] - 25;
+    tooltip.attr("transform", "translate(" + xPosition + "," + yPosition + ")");
+    tooltip.select("text").text(d.x + ": Overall" +d.z  + ":" +d.y);
+  });
+
+
+
+// Prep the tooltip bits, initial display is hidden
+var tooltip = svg.append("g")
+  .attr("class", "tooltip")
+  .style("display", "none");
+    
+tooltip.append("rect")
+  .attr("width", 30)
+  .attr("height", 20)
+  .attr("fill", "white")
+  .style("opacity", 0.5);
+
+tooltip.append("text")
+  .attr("x", 15)
+  .attr("dy", "1.2em")
+  .style("text-anchor", "middle")
+  .attr("font-size", "12px")
+  .attr("font-weight", "bold");
+
+svg.append("text")
+        .attr("class", "axis_label")
+        .attr("text-anchor", "middle")
+        .attr("transform", "translate("+ 0 +","+(height/2)+")rotate(-90)")
+        .text("Rankings");
+svg.append("text")
+        .attr("class", "axis_label")
+        .attr("text-anchor", "middle")
+        .attr("transform", "translate("+ ((width/2)) +","+ ((width/2)+5) +")")
+        .text("Stacked Bar Chart showing Rankings");
+
+}
+*/
+function scatter_bubble(dataset){
+
+  console.log("Inside scatt plot")
+  console.log(dataset)
+  var SelectedData=[]
+  data=dataset['datapoints']
+  var margin = {top: 30, right: 20, bottom: 60, left: 50},
+    width = 500 - margin.left - margin.right,
+    height = 310 - margin.top - margin.bottom;
+
+// Parse the date / time
+
+// Set the ranges
+var x = d3.scaleLinear().range([0, width]);
+var y = d3.scaleLinear().range([height, 0]);
+
+// Define the axes
+var xAxis = d3.axisBottom(x).ticks(5);
+
+var yAxis = d3.axisLeft(y).ticks(3);
+
+// Define the line
+var colorScale = d3.scaleOrdinal(d3.schemePaired);
+    
+// Adds the svg canvas
+var svg = d3.select("#bubble")
+    .append("svg")
+        .attr("width", width + margin.left + margin.right)
+        .attr("height", height + margin.top + margin.bottom)
+    .append("g")
+        .attr("transform", 
+              "translate(" + margin.left + "," + margin.top + ")");
+
+// Get the data
+
+
+    // Scale the range of the data
+    x.domain(d3.extent(data, function(d) { return d.C; }));
+    y.domain([15, d3.max(data, function(d) { return d.A; })]);
+
+    // Add the valueline path.
+    colorScale.domain(data.map(function (d){ return d.D; }));
+    
+var z = d3.scaleSqrt()
+    .domain([0, 10])
+    .range([ 0, 10]);
+    // Add the scatterplot
+var myCircle=svg.selectAll("dot")
+        .data(data)
+      .enter().append("circle").style("opacity",0.5)
+      .attr('class','non_brushed')
+        .attr("fill", function (d){ return colorScale(d.D); })
+        .attr("r", function(d){return z(d.C)/2.5})
+        .attr("cx", function(d) { return x(d.C); })
+        .attr("cy", function(d) { return y(d.A); })
+        .on("mouseover", function() { tooltip.style("display", null); })
+        .on("mouseout", function() { tooltip.style("display", "none"); })
+        .on("mousemove", function(d) {
+    var xPosition = d3.mouse(this)[0] - 15;
+    var yPosition = d3.mouse(this)[1] - 25;
+    tooltip.attr("transform", "translate(" + xPosition + "," + yPosition + ")");
+    tooltip.select("text").html(function(){ return "Name:"+d.E + ' Age:'+d.A+" Nationality:"+d.K+" Position:"+d.I+" Value:"+d.B+"M"})
+  });
+
+// Prep the tooltip bits, initial display is hidden
+var tooltip = svg.append("g").attr("class", "tooltip").style("display", "none")
+    
+tooltip.append("rect").attr("width", 30).attr("height", 20).attr("fill", "white").attr("data-html", "true")
+.style("opacity", 0.5);
+
+tooltip.append("text")
+  .attr("x", 15)
+  .attr("dy", "1.2em")
+  .style("text-anchor", "middle")
+  .attr("font-size", "12px")
+  .attr("font-weight", "bold");
+  
+
+    // Add the X Axis
+    svg.append("g")
+        .attr("class", "x axis")
+        .attr("transform", "translate(0," + height + ")")
+        .call(xAxis);
+
+    // Add the Y Axis
+    svg.append("g")
+        .attr("class", "y axis")
+        .call(yAxis);
+    svg.append("text")
+        .attr("class", "axis_label")
+        .attr("text-anchor", "middle")
+        .attr("transform", "translate("+ -38 +","+(height/2)+")rotate(-90)")
+        .text("Age");
+
+    svg.append("text")
+        .attr("class", "axis_label")
+        .attr("text-anchor", "middle")
+        .attr("transform", "translate("+ ((width/2)) +","+ ((width/2)+45) +")")
+        .text("Overall Rating");
+
+    svg.append("text")
+        .attr("class", "chart_name")
+        .attr("text-anchor", "middle")
+        .attr("transform", "translate("+ (height + margin.top + margin.bottom-85) +","+(height - margin.bottom+115)+")")
+        .text("Bubble Chart showing player info wrt Age and Overall Rating");
+      
+
+    function highlightBrushedCircles() {
+
+                if (d3.event.selection != null) {
+
+                    // revert circles to initial style
+                    myCircle.attr("class", "non_brushed");
+
+                    var brush_coords = d3.brushSelection(this);
+
+                    // style brushed circles
+                    myCircle.filter(function (){
+
+                               var cx = d3.select(this).attr("cx"),
+                                   cy = d3.select(this).attr("cy");
+
+                               return isBrushed(brush_coords, cx, cy);
+                           })
+                           .attr("class", "brushed");
+                }
+            }
+
+            function displayTable() {
+
+                // disregard brushes w/o selections  
+                // ref: http://bl.ocks.org/mbostock/6232537
+                if (!d3.event.selection) return;
+
+                // programmed clearing of brush after mouse-up
+                // ref: https://github.com/d3/d3-brush/issues/10
+                d3.select(this).call(brush.move, null);
+
+                var d_brushed =  d3.selectAll(".brushed").data();
+                arra=[]
+                arra1=[]
+                arra2=[]
+                arra3=[]
+                d_filter1=[]
+                d_filter2=[]
+                d_filter3=[]
+                d_filter4=[]
+                d_filter5=[]
+                d_filter6=[]
+                d_filter7=[]
+                d_filter8=[]
+                d_filter9=[]
+                d_filter10=[]
+                d_filter11=[]
+                d_filter12=[]
+                // populate table if one or more elements is brushed
+                if (d_brushed.length > 0) {
+                    clearTableRows();
+                    d_brushed.forEach(d_row => populateTableRow(d_row))
+                } else {
+                    clearTableRows();
+                }
+            }
+
+            var brush = d3.brush()
+                          .on("brush", highlightBrushedCircles)
+                          .on("end", displayTable); 
+
+            svg.append("g")
+               .call(brush);
+        
+        function clearTableRows() {
+
+            hideTableColNames();
+            d3.selectAll(".row_data").remove();
+        }
+
+        function isBrushed(brush_coords, cx, cy) {
+
+             var x0 = brush_coords[0][0],
+                 x1 = brush_coords[1][0],
+                 y0 = brush_coords[0][1],
+                 y1 = brush_coords[1][1];
+
+            return x0 <= cx && cx <= x1 && y0 <= cy && cy <= y1;
+        }
+
+        function hideTableColNames() {
+            d3.select("table").style("visibility", "hidden");
+        }
+
+        function showTableColNames() {
+            d3.select("table").style("visibility", "visible");
+        }
+
+        function populateTableRow(d_row) {
+
+            showTableColNames();
+            
+            /*var d_row_filter = [d_row.A, 
+                                d_row.C, 
+                                d_row.E];
+            //console.log(d_row_filter) 
+            val=Object.assign({},d_row_filter);*/
+             list=['Crossing','Acceleration','SprintSpeed','Agility','Balance','ShotPower','Jumping','Stamina','Strength','Penalties']
+             d_filter1={"C":list[0] ,"B":d_row.M,"D":d_row.D}
+                        arra.push(d_filter1)
+
+             d_filter2={"C":list[1] ,"B":d_row.N,"D":d_row.D}
+                        arra.push(d_filter2)
+
+             d_filter3={"C":list[2] ,"B":d_row.V,"D":d_row.D}
+                        arra.push(d_filter3)
+
+             d_filter4={"C":list[3] ,"B":d_row.O,"D":d_row.D}
+                        arra.push(d_filter4)
+
+             d_filter5={"C":list[4] ,"B":d_row.P,"D":d_row.D}
+                        arra.push(d_filter5)
+
+             d_filter6={"C":list[5] ,"B":d_row.Q,"D":d_row.D}
+                        arra.push(d_filter6)
+
+             d_filter7={"C":list[6] ,"B":d_row.R,"D":d_row.D}
+                        arra.push(d_filter7)
+
+             d_filter8={"C":list[7] ,"B":d_row.S,"D":d_row.D}
+                        arra.push(d_filter8)
+
+             d_filter9={"C":list[8] ,"B":d_row.T,"D":d_row.D}
+                        arra.push(d_filter9)
+
+             d_filter10={"C":list[9] ,"B":d_row.U,"D":d_row.D}
+                        arra.push(d_filter10)
+
+            d_filter11={"Club":d_row.D,"Crossing":d_row.M,"Strength":d_row.T,"Preferred Foot":d_row.W,"International Reputation":d_row.L}
+            arra1.push(d_filter11)
+
+            // d_filter12={"Club":d_row.D}
+            arra2.push(d_row.D)
+            arra3.push(d_row.K)
+// count2 = dataset.reduce((acc, cur) => cur.D === club_list[1] ? ++acc : acc, 0);
+// count3 = dataset.reduce((acc, cur) => cur.D === club_list[1] ? ++acc : acc, 0);
+// count4 = dataset.reduce((acc, cur) => cur.D === club_list[2] ? ++acc : acc, 0);
+// count5 = dataset.reduce((acc, cur) => cur.D === club_list[3] ? ++acc : acc, 0);
+// count6 = dataset.reduce((acc, cur) => cur.D === club_list[4] ? ++acc : acc, 0);
+// count7 = dataset.reduce((acc, cur) => cur.D === club_list[5] ? ++acc : acc, 0);
+// count8 = dataset.reduce((acc, cur) => cur.D === club_list[6] ? ++acc : acc, 0);
+// count9 = dataset.reduce((acc, cur) => cur.D === club_list[7] ? ++acc : acc, 0);
+// count10 = dataset.reduce((acc, cur) => cur.D === club_list[8] ? ++acc : acc, 0);
+// count11 = dataset.reduce((acc, cur) => cur.D === club_list[9] ? ++acc : acc, 0);
+// count12 = dataset.reduce((acc, cur) => cur.D === club_list[10] ? ++acc : acc, 0);
+// count13 = dataset.reduce((acc, cur) => cur.D === club_list[11] ? ++acc : acc, 0);
+// count14 = dataset.reduce((acc, cur) => cur.D === club_list[12] ? ++acc : acc, 0);
+// count15 = dataset.reduce((acc, cur) => cur.D === club_list[13] ? ++acc : acc, 0);
+// count16 = dataset.reduce((acc, cur) => cur.D === club_list[14] ? ++acc : acc, 0);
+// count17 = dataset.reduce((acc, cur) => cur.D === club_list[15] ? ++acc : acc, 0);
+// count18 = dataset.reduce((acc, cur) => cur.D === club_list[16] ? ++acc : acc, 0);
+// count19= dataset.reduce((acc, cur) => cur.D === club_list[17] ? ++acc : acc, 0);
+// count20= dataset.reduce((acc, cur) => cur.D === club_list[] ? ++acc : acc, 0);
+            // console.log(arra2)
+            send_data_bar(arra2)
+            send_data_pie(arra3)
+            // console.log(arra1)
+            send_data_scatter(arra)
+            send_data_parallel(arra1)
+            
+        }
+  
+
+  // A function that return TRUE or FALSE according if a dot is in the selection or not
+  function isBrushed(brush_coords, cx, cy) {
+       var x0 = brush_coords[0][0],
+           x1 = brush_coords[1][0],
+           y0 = brush_coords[0][1],
+           y1 = brush_coords[1][1];
+      return x0 <= cx && cx <= x1 && y0 <= cy && cy <= y1;    // This return TRUE or FALSE depending on if the points is in the selected area
+  }
+}
+
+function send_data(dataset)
+{
+  d3.select("#bubble").select("svg").remove();
+
+  console.log(dataset)
+  
+  //console.log(arr)
+  //var dataset=(Object.values(data))
+  var SelectedData=[]
+  //data=data['datapoints']
+  var margin = {top: 30, right: 20, bottom: 60, left: 50},
+    width = 500 - margin.left - margin.right,
+    height = 310 - margin.top - margin.bottom;
+//console.log(dataset[2])
+// Parse the date / time
+  
+  //console.log(dataset)
+// Set the ranges
+var x = d3.scaleLinear().range([0, width]);
+var y = d3.scaleLinear().range([height, 0]);
+
+// Define the axes
+var xAxis = d3.axisBottom(x).ticks(5);
+
+var yAxis = d3.axisLeft(y).ticks(3);
+
+// Define the line
+var colorScale = d3.scaleOrdinal(d3.schemePaired);
+    
+// Adds the svg canvas
+var svg = d3.select("#bubble")
+    .append("svg")
+        .attr("width", width + margin.left + margin.right)
+        .attr("height", height + margin.top + margin.bottom)
+        .append("g")
+        .attr("transform", 
+              "translate(" + margin.left + "," + margin.top + ")");
+
+// Get the data
+
+
+    // Scale the range of the data
+    x.domain(d3.extent(dataset, function(d) {  
+      //console.log(d[1]);
+      return d.B; }));
+    y.domain([15, d3.max(dataset, function(d) { return d.A; })]);
+
+    // Add the valueline path.
+    //colorScale.domain(data.map(function (d){ return d.D; }));
+    
+var z = d3.scaleSqrt()
+    .domain([0, 10])
+    .range([ 0, 10]);
+    // Add the scatterplot
+var myCircle=svg.selectAll("dot")
+        .data(dataset)
+      .enter().append("circle").style("opacity",0.5)
+      .attr('class','non_brushed')
+        //.attr("fill", function (d){ return colorScale(d.D); })
+        .attr("r", function(d){return z(d.B)/2.5})
+        .attr("cx", function(d) { return x(d.B); })
+        .attr("cy", function(d) { return y(d.A); })
+        
+// Prep the tooltip bits, initial display is hidden
+
+
+    // Add the X Axis
+    svg.append("g")
+        .attr("class", "x axis")
+        .attr("transform", "translate(0," + height + ")")
+        .call(xAxis);
+
+    // Add the Y Axis
+    svg.append("g")
+        .attr("class", "y axis")
+        .call(yAxis);
+    svg.append("text")
+        .attr("class", "axis_label")
+        .attr("text-anchor", "middle")
+        .attr("transform", "translate("+ -38 +","+(height/2)+")rotate(-90)")
+        .text("Age");
+
+    svg.append("text")
+        .attr("class", "axis_label")
+        .attr("text-anchor", "middle")
+        .attr("transform", "translate("+ ((width/2)) +","+ ((width/2)+45) +")")
+        .text("Overall Rating");
+
+    svg.append("text")
+        .attr("class", "chart_name")
+        .attr("text-anchor", "middle")
+        .attr("transform", "translate("+ (height + margin.top + margin.bottom-85) +","+(height - margin.bottom+115)+")")
+        .text("Bubble Chart showing player info wrt Age and Overall Rating");
+  //console.log(data);
+}
+
+function send_data_scatter(data){
+
+  d3.select("#scatter").select("svg").remove();
+
+  console.log("Inside scatt plot")
+ 
+  // data=dataset['datapoints']
+    console.log(data)
+
+  // cat=dataset['categories']
+  var margin = {top: 50, right: 20, bottom: 20, left: 100},
+    width = 550 - margin.left - margin.right,
+    height = 350 - margin.top - margin.bottom;
+
+// Parse the date / time
+
+// Set the ranges
+var y = d3.scaleBand().rangeRound([0, height])
+    .padding(0.9);
+var x = d3.scaleLinear().range([0, width]);
+var colorScale = d3.scaleOrdinal(d3.schemePaired);
+
+// Define the axes
+var xAxis = d3.axisTop(x).ticks(5);
+
+var yAxis = d3.axisLeft(y).ticks(0);
+
+// Define the line+500
+
+  colorScale.domain(data.map(function (d){ return d.D; }));
+
+// Adds the svg canvas
+var svg = d3.select("#scatter")
+    .append("svg")
+        .attr("width", width + margin.left + margin.right)
+            .attr("height", height + margin.top + margin.bottom)
+            .append("g")
+            .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+// Get the data[
+
+
+    // Scale the range of the data
+    y.domain(data.map(function (d) {
+                return d.C;
+            }));
+    x.domain([0, d3.max(data, function(d) { return d.B; })]);
+
+    // Add the valueline path.
+    
+
+    // Add the scatterplot
+    svg.selectAll("dot")
+        .data(data)
+        .enter().append("circle").style("opacity",0.5)
+        .attr("fill", function (d){ return colorScale(d.D); })
+        .attr("r", 5)
+        .attr("cx", function(d) { return x(d.B); })
+        .attr("cy", function(d) { return y(d.C); });
+
+    // Add the X Axis
+    svg.append("g")
+        .attr("class", "x axis")
+        //.attr("transform", "translate(0," + height-150 + ")")
+        .call(yAxis)
+        .selectAll("text")
+        // .attr("transform","rotate(+45)");
+
+    // Add the Y Axis
+    svg.append("g")
+        .attr("class", "y axis")
+        .call(xAxis)
+    svg.append("text")
+        .attr("class", "axis_label")
+        .attr("text-anchor", "middle")
+        .attr("transform", "translate("+ ((width/2)) +","+ ((width/2)-240) +")")
+        .text("Score(0-100)");
+
+    svg.append("text")
+        .attr("class", "chart_name")
+        .attr("text-anchor", "middle")
+        .attr("transform", "translate("+ (height + margin.top + margin.bottom-130) +","+(height - margin.bottom+30)+")")
+        .text("Scatter Plot showing player score across different criterias");
+
+}
+
+function send_data_parallel(data)
+{
+  // data=data1['datapoints']
+    d3.select("#parallel").select("svg").remove();
+
+  console.log(data)
+  // set the dimensions and margins of the graph
+var margin = {top: 30, right: 50, bottom: 30, left: 50},
+  width = 620 - margin.left - margin.right,
+  height = 350 - margin.top - margin.bottom;
+
+// append the svg object to the body of the page
+var svg = d3.select("#parallel")
+.append("svg")
+  .attr("width", width + margin.left + margin.right)
+  .attr("height", height + margin.top + margin.bottom)
+.append("g")
+  .attr("transform",
+        "translate(" + margin.left + "," + margin.top + ")");
+
+// Parse the Data
+
+  // Color scale: give me a specie name, I return a color
+  var color = d3.scaleOrdinal(d3.schemePaired)
+    
+  // Here I set the list of dimension manually to control the order of axis:
+dimensions = ["Preferred Foot", "Strength", "International Reputation", "Crossing"]
+  // For each dimension, I build a linear scale. I store all in a y object
+  var y = {}
+  for (i in dimensions) {
+    name = dimensions[i]
+    //console.log(name)
+    y[name] = d3.scaleLinear().domain([0,100] ) // --> Same axis range for each group
+      //.domain( [d3.extent(data, function(d) {return +d[name]; })] )
+      .range([height, 0])
+  }
+
+  // Build the X scale -> it find the best position for each Y axis
+  x=d3.scalePoint().domain(dimensions).range([0, width]);
+  color.domain(data.map(function (d){ return d.Club; }));
+
+  // Highlight the specie that is hovered
+  // var highlight = function(d){
+
+  //   selected_specie = d.club
+
+  //   // first every group turns grey
+  //   d3.selectAll(".line")
+  //     .transition().duration(200)
+  //     .style("stroke", "lightgrey")
+  //     .style("opacity", "0.2")
+  //   // Second the hovered specie takes its color
+  //   d3.selectAll("." + selected_specie)
+  //     .transition().duration(200)
+  //     .style("stroke", color(selected_specie))
+  //     .style("opacity", "1")
+  // }
+
+  // // Unhighlight
+  // var doNotHighlight = function(d){
+  //   d3.selectAll(".line")
+  //     .transition().duration(200).delay(1000)
+  //     .style("stroke", function(d){ return( color(d.club))} )
+  //     .style("opacity", "1")
+  // }
+
+  // The path function take a row of the csv as input, and return x and y coordinates of the line to draw for this raw.
+  function path(d) {
+      //console.log(d)
+      return d3.line()(dimensions.map(function(p) { 
+        //console.log([x(p), y[p](d[p])])
+        return [x(p), y[p](d[p])]; }));
+  }
+
+  // Draw the lines
+  svg.selectAll("myPath")
+    .data(data)
+    .enter()
+    .append("path")
+      .attr("class", function (d) { return "line " + d.Club } ) // 2 class for each line: 'line' and the group name
+      .attr("d",  path)
+      .style("fill", "none" )
+      .style("stroke", function(d){ return( color(d.Club))} )
+      .style("opacity", 0.7)
+      //.on("mouseover", highlight)
+      //.on("mouseleave", doNotHighlight )
+
+  // Draw the axis:
+  svg.selectAll("myAxis")
+    // For each dimension of the dataset I add a 'g' element:
+    .data(dimensions).enter()
+    .append("g")
+    .attr("class", "axis")
+    // I translate this element to its right position on the x axis
+    .attr("transform", function(d) { return "translate(" + x(d) + ")"; })
+    // And I build the axis with the call function
+    .each(function(d) { d3.select(this).call(d3.axisLeft(y[d]).ticks(5)); })
+    // Add axis title
+    .append("text")
+      .style("text-anchor", "middle")
+      .attr("y", -9)
+      .text(function(d) { return d; })
+      .style("fill", "black");
+    svg.append("text")
+        .attr("class", "chart_name")
+        .attr("text-anchor", "middle")
+        .attr("transform", "translate("+ (height + margin.top + margin.bottom-90) +","+(height - margin.bottom+50)+")")
+        .text("Parallel Coordinates Plot");
+
+
+}
+
+function send_data_bar(data) {
+    // d3.selectAll('.svgid').remove();
+    // var club = data['datapoints'];
+    // club.sort(function(a, b) {
+    //     return b.B - a.B;
+    //   });
+    //club=Object.entries(club)
+    // console.log(club)
+      d3.select("#bar").select("svg").remove();
+
+      //console.log(col_nest)   
+    // console.log("Inside hist plot")
+    // set the dimensions and margins of the graph
+// console.log(club)
+// var arr = [5, 5, 5, 2, 2, 2, 2, 2, 9, 4];
+var counts = {};
+club_list=['FC Barcelona',
+ 'Juventus',
+ 'Paris Saint-Germain',
+ 'Manchester United',
+ 'Manchester City',
+ 'Chelsea',
+ 'Real Madrid',
+ 'Atletico Madrid',
+ 'FC Bayern Munchen',
+ 'Tottenham Hotspur',
+ 'Liverpool',
+ 'Arsenal',
+ 'Borussia Dortmund',
+ 'RC Celta',
+ 'Everton',
+ 'Wolverhampton Wanderers',
+ 'Eintracht Frankfurt',
+ 'Frosinone',
+ 'Empoli',
+ 'Cardiff City']
+club=[]
+for (var i = 0; i < data.length; i++) {
+  var num = data[i];
+  counts[num] = counts[num] ? counts[num] + 1 : 1;
+}
+c=[]
+for(i=0;i<20;i++){
+  if(counts[club_list[i]]==undefined)
+    c[i]=0
+  else
+    c[i]=counts[club_list[i]]
+}
+for (i=0;i<20;i++){
+club.push(
+  {"A":club_list[i],"B":c[i]})
+}
+
+// console.log(final)
+
+        var margin = {
+            top: 15,
+            right: 25,
+            bottom: 15,
+            left: 20
+        };
+
+        var width = 300 - margin.left - margin.right,
+            height = 680 - margin.top - margin.bottom;
+
+        var svg = d3.select("#bar").append("svg")
+            .attr('class','svgid')
+            .attr("width", width + margin.left + margin.right)
+            .attr("height", height + margin.top + margin.bottom)
+            .append("g")
+            .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+        var colorScale = d3.scaleOrdinal(d3.schemePaired);
+
+        var x = d3.scaleLinear().range([0, width]).domain([0, d3.max(club, function (d) {
+                return d.B;
+            })]);
+
+        var y = d3.scaleBand().rangeRound([height, 0]).domain(club.map(function (d) {
+                return d.A;
+            })).padding(0.1);
+            //console.log("2")
+
+        colorScale.domain(club.map(function (d){ return d.A; }));
+
+        //make y axis to show bar names
+        var yAxis = d3.axisLeft(y).ticks(0);
+
+        var bars = svg.selectAll(".bar")
+            .data(club)
+            .enter()
+            .append("g")
+      var str=""
+        //append rects
+        bars.append("rect")
+            .attr("class", "bar").style("opacity",0.5)
+            .attr("fill", function (d){ return colorScale(d.A); })
+            .attr("y", function(d) {
+                return y(d.A);
+            })
+            .attr("height", y.bandwidth())
+            .attr("x", 0)
+            .attr("width", function (d) {
+                return x(d.B);
+            })
+            .on("click",function (d) {
+
+        // d3.select("#bar").select("svg").remove();
+        //               button1("/bar");
+        //str=str+"$$"+d.A;
+        //console.log(str)
+        d3.select(this).style("opacity", 1.0);      
+
+
+      d3.select("#scatter").select("svg").remove();
+
+              button2("/scatter/"+d.A);
+      d3.select("#bubble").select("svg").remove();
+
+              //d3.select("#bubble").remove();
+              button3("/bubble/"+d.A);
+      d3.select("#stack").select("svg").remove();
+
+              button4("/stack/"+d.A);
+      d3.select("#parallel").select("svg").remove();
+
+              button5("/parallel/"+d.A);
+
+
+            });
+
+        bars.append("text")
+            .attr("class", "label")
+            //y position of the label is halfway down the bar
+            .attr("y", function (d) {
+                return y(d.A) + y.bandwidth() / 2 + 4;
+            })
+            //x position is 3 pixels to the right of the bar
+            .attr("x", function (d) {
+                return 3;
+            })
+            .text(function (d) {
+                return d.A;
+            })
+            .style("fill", "black");
+
+        bars.append("text")
+            .attr("class", "label")
+            //y position of the label is halfway down the bar
+            .attr("y", function (d) {
+                return y(d.A) + y.bandwidth() / 2 + 4;
+            })
+            //x position is 3 pixels to the right of the bar
+            .attr("x", function (d) {
+                return x(d.B) +2;
+            })
+            .text(function (d) {
+                return d.B;
+            })
+            .style("fill", "black");
+            console.log("4")
+            svg.append("text")
+        .attr("class", "chart_name")
+        .attr("text-anchor", "middle")
+            .attr("transform", "translate(" + 125 + "," +660+ ")")
+        .text("Bar graphs displaying Club Names");
+}
+
+function send_data_pie(data1){
+      d3.select("#stack").select("svg").remove();
+
+
+var counts = {};
+coun_list=['Argentina',
+ 'Portugal',
+ 'Brazil',
+ 'Spain',
+ 'Belgium',
+ 'Croatia',
+ 'Uruguay',
+ 'Slovenia',
+ 'Poland',
+ 'Germany',
+ 'France',
+ 'England',
+ 'Italy',
+ 'Egypt',
+ 'Colombia',
+ 'Denmark',
+ 'Gabon',
+ 'Wales',
+ 'Costa Rica',
+ 'Senegal',
+ 'Netherlands',
+ 'Bosnia Herzegovina',
+ 'Morocco',
+ 'Algeria',
+ 'Austria',
+ 'Chile',
+ 'Korea Republic',
+ 'Serbia',
+ 'Greece',
+ 'Guinea',
+ 'Montenegro',
+ 'Armenia',
+ 'Scotland',
+ 'Ghana',
+ 'Switzerland',
+ 'Iceland',
+ 'Czech Republic',
+ 'Ivory Coast',
+ 'Japan',
+ 'Turkey',
+ 'Ecuador',
+ 'Dominican Republic',
+ 'Cameroon',
+ 'Kenya',
+ 'Republic of Ireland',
+ 'United States',
+ 'Sweden',
+ 'Slovakia',
+ 'Nigeria',
+ 'Mexico',
+ 'Paraguay',
+ 'Canada',
+ 'Philippines',
+ 'Liechtenstein',
+ 'Ukraine',
+ 'Albania',
+ 'Israel',
+ 'Georgia',
+ 'DR Congo',
+ 'Equatorial Guinea',
+ 'Cyprus',
+ 'Norway',
+ 'Northern Ireland',
+ 'South Africa']
+data=[]
+for (var i = 0; i < data1.length; i++) {
+  var num = data1[i];
+  counts[num] = counts[num] ? counts[num] + 1 : 1;
+}
+c=[]
+for(i=0;i<coun_list.length;i++){
+  if(counts[coun_list[i]]==undefined)
+    c[i]=0
+  else
+    c[i]=counts[coun_list[i]]
+}
+for (i=0;i<20;i++){
+data.push(
+  {"A":coun_list[i],"B":c[i]})
+}
+console.log(data)
+
+var width = 320
+    height = 320
+    margin=20
+    
+
+// The radius of the pieplot is half the width or half the height (smallest one). I subtract a bit of margin.
+// var radius = Math.min(width, height) / 2 - margin
+
+// append the svg object to the div called 'my_dataviz'
+var svg = d3.select("#stack")
+  .append("svg")
+    .attr("width", width)
+    .attr("height", height)
+  .append("g")
+    .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")");
+
+// var svg = d3.select("#stack")
+//   .append("svg")
+//   .attr("width", width + margin.left + margin.right)
+//   .attr("height", height + margin.top + margin.bottom)
+//   .append("g")
+//   .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+
+// var data = data1['datapoints']
+var radius = Math.min(width, height) / 2 - margin
+
+var color = d3.scaleOrdinal(d3.schemePaired)
+var tooltip = svg.append("g").attr("class", "tooltip").style("display", "none")
+    
+tooltip.append("rect").attr("width", 30).attr("height", 20).attr("fill", "white").attr("data-html", "true");
+tooltip.append("text")
+  .attr("x", 15)
+  .attr("dy", "1.2em")
+  .style("text-anchor", "middle")
+  .attr("font-size", "12px")
+  .attr("font-weight", "bold");
+console.log(data)
+// Compute the position of each group on the pie:
+var pie = d3.pie().value(function(d) {return d.B; })
+var data_ready = pie(data)
+console.log(data_ready)
+// Build the pie chart: Basically, each part of the pie is a path that we build using the arc function.
+svg.selectAll('whatever')
+  .data(data_ready)
+  .enter()
+  .append('path').style("opacity",0.5)
+  .attr('d', d3.arc().innerRadius(0).outerRadius(radius))
+  .attr('fill', function(d){ return(color(d.data.A)) })
+  //.attr("stroke", "black")
+  //.style("stroke-width", "0.2px")
+  
+  .on("click",function (d) { 
+          d3.select(this).style("opacity", 0.8);      
+      d3.select("#bar").select("svg").remove();
+
+              button1("/bar/"+d.data.A);
+      d3.select("#scatter").select("svg").remove();
+
+              //d3.select("#bubble").remove();
+              button2("/scatter/"+d.data.A);
+      d3.select("#bubble").select("svg").remove();
+
+              button3("/bubble/"+d.data.A);
+      d3.select("#parallel").select("svg").remove();
+
+              button5("/parallel/"+d.data.A);
+
+            })
+  .on("mouseover", function() { tooltip.style("display", null); })
+        .on("mouseout", function() { tooltip.style("display", "none"); })
+        .on("mousemove", function(d) {
+    var xPosition = d3.mouse(this)[0] - 15;
+    var yPosition = d3.mouse(this)[1] - 25;
+    tooltip.attr("transform", "translate(" + xPosition + "," + yPosition + ")")
+    tooltip.select("text").html(function(){ return d.data.A+":"+d.data.B;}).style("opacity",1.0);
+  });
+
+
+
+
+svg.append("text")
+        .attr("class", "chart_name")
+        .attr("text-anchor", "middle")
+        .attr("transform", "translate("+ (width/2-155) +","+(height/2-5)+")")
+        .text("Pie chart showing Player Nationalities");
+
+}
+
+</script>
+</body>
+</html>
