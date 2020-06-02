@@ -1,0 +1,131 @@
+
+h1 {
+  display: block;
+  font-size: 2.5em;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+  color: #17202A;
+  font-family: sans-serif;
+}
+h2{
+  display: block;
+  font-size: 1.5em;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+  color: #17202A;
+  font-family: sans-serif;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  margin-bottom: 20px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+    font-size: 23px;
+
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+
+#bar {    
+  position:absolute;
+  top:130px;
+  left:0px;
+  width:400px;
+  height: 700px; 
+}
+
+
+#bubble {
+  position: absolute;
+  top:130px;
+  left:350px;
+  height:200px;
+width: 200px;
+}
+
+#parallel {
+position: absolute;
+  top:460px;
+  left:835px;
+  height:200px;
+width: 200px;}
+
+#stack{
+  position: absolute;
+  top:110px;
+  left:1020px;
+  height:200px;
+  width: 200px;
+}
+
+#scatter{
+  position: absolute;
+  top:460px;
+  left:300px;
+  height:400px;
+width: 200px;
+}
+.axis {
+  opacity: 0.4;
+}
+.axis:hover {
+  opacity: 1;
+}
+
+
+.tooltip-inner {
+    white-space: pre-line;
+    max-width: 100%
+}
+.tooltip {
+      word-break: break-all;
+      z-index: 2;
+      opacity:1;
+    }
+.selected {
+  opacity: 1 ;
+  
+  .brushed {
+            fill: #ff3897;
+            opacity: 2.0;
+        }
+}
+.dot{
+  opacity: 1;
+}
+
+.bar:active{
+opacity: :1;
+}
+
+body{
+  background-color: #E6F2E4
+
+}
